@@ -1,0 +1,387 @@
+0000.000 (0) Opened log file at time: Wed, 07 Jan 2015 21:30:02 +0000 on http://www.bunited.dev
+0000.001 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.4.19 (Darwin Vincent-Impellizzeris-MacBook-Pro.local 13.4.0 Darwin Kernel Version 13.4.0: Sun Aug 17 19:50:11 PDT 2014; root:xnu-2422.115.4~1/RELEASE_X86_64 x86_64) MySQL: 5.1.44 Server: Apache/2.4.4 (Unix) PHP/5.4.19 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 15M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 78936.2 Mb
+0000.003 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every8hours)
+0000.004 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.005 (0) Requesting semaphore lock (f)
+0000.318 (0) Semaphore (f) was stuck, set lock time to 2015-01-07 21:30:02
+0000.319 (0) Semaphore (f) reset to 1
+0000.320 (0) Set semaphore last lock (f) time to 2015-01-07 21:30:03
+0000.321 (0) Semaphore lock (f) complete
+0000.324 (0) Backup run: resumption=0, nonce=ce04ba8af429, begun at=1420666202 (1s ago), job type=backup
+0000.326 (0) Scheduling a resumption (1) after 300 seconds (1420666503) in case this run gets aborted
+0000.337 (0) Checking if we have a zip executable available
+0000.338 (0) Testing: /usr/bin/zip
+0000.345 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.346 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.346 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.371 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.372 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.381 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.383 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.392 (0) Working binary zip found: /usr/bin/zip
+0000.393 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.394 (0) Creation of backups of directories: beginning
+0000.398 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0000.421 (0) Total entities for the zip file: 90 directories, 562 files (0 skipped as non-modified), 12.7 Mb
+0000.426 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.438 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.442 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.445 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.452 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.452 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.3 Mb, 562 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0001.794 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip.tmp: size is now: 4.10 Mb
+0002.089 (0) Created plugins zip (0) - 4278.3 Kb in 1.7 s (2531.4 Kb/s) (SHA1 checksum: 035b92bcc3764c21a292a0053eb94749ec589822)
+0002.090 (0) Deleting old temporary file: zi8pzW2j
+0002.091 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0002.094 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/5d57d4873e08eb2a8617e0f2ed3b82da46b1bf10/_home.scssc: unreadable file
+0002.095 (0) [Warning] themes/bunited2015/.sass-cache/5d57d4873e08eb2a8617e0f2ed3b82da46b1bf10/_home.scssc: unreadable file - could not be backed up
+0002.095 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_alerts.scssc: unreadable file
+0002.096 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_alerts.scssc: unreadable file - could not be backed up
+0002.096 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_background-variant.scssc: unreadable file
+0002.097 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_background-variant.scssc: unreadable file - could not be backed up
+0002.098 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_border-radius.scssc: unreadable file
+0002.099 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_border-radius.scssc: unreadable file - could not be backed up
+0002.099 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_buttons.scssc: unreadable file
+0002.100 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_buttons.scssc: unreadable file - could not be backed up
+0002.100 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_center-block.scssc: unreadable file
+0002.101 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_center-block.scssc: unreadable file - could not be backed up
+0002.101 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_clearfix.scssc: unreadable file
+0002.102 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_clearfix.scssc: unreadable file - could not be backed up
+0002.103 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_forms.scssc: unreadable file
+0002.104 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_forms.scssc: unreadable file - could not be backed up
+0002.104 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_gradients.scssc: unreadable file
+0002.105 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_gradients.scssc: unreadable file - could not be backed up
+0002.105 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid-framework.scssc: unreadable file
+0002.106 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid-framework.scssc: unreadable file - could not be backed up
+0002.107 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid.scssc: unreadable file
+0002.108 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid.scssc: unreadable file - could not be backed up
+0002.108 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_hide-text.scssc: unreadable file
+0002.109 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_hide-text.scssc: unreadable file - could not be backed up
+0002.109 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_image.scssc: unreadable file
+0002.110 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_image.scssc: unreadable file - could not be backed up
+0002.111 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_labels.scssc: unreadable file
+0002.112 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_labels.scssc: unreadable file - could not be backed up
+0002.112 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_list-group.scssc: unreadable file
+0002.113 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_list-group.scssc: unreadable file - could not be backed up
+0002.113 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-divider.scssc: unreadable file
+0002.114 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-divider.scssc: unreadable file - could not be backed up
+0002.115 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-vertical-align.scssc: unreadable file
+0002.116 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-vertical-align.scssc: unreadable file - could not be backed up
+0002.116 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_opacity.scssc: unreadable file
+0002.117 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_opacity.scssc: unreadable file - could not be backed up
+0002.118 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_pagination.scssc: unreadable file
+0002.119 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_pagination.scssc: unreadable file - could not be backed up
+0002.119 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_panels.scssc: unreadable file
+0002.120 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_panels.scssc: unreadable file - could not be backed up
+0002.120 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_progress-bar.scssc: unreadable file
+0002.121 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_progress-bar.scssc: unreadable file - could not be backed up
+0002.122 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_reset-filter.scssc: unreadable file
+0002.123 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_reset-filter.scssc: unreadable file - could not be backed up
+0002.123 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_resize.scssc: unreadable file
+0002.125 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_resize.scssc: unreadable file - could not be backed up
+0002.125 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_responsive-visibility.scssc: unreadable file
+0002.126 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_responsive-visibility.scssc: unreadable file - could not be backed up
+0002.126 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_size.scssc: unreadable file
+0002.128 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_size.scssc: unreadable file - could not be backed up
+0002.128 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_tab-focus.scssc: unreadable file
+0002.129 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_tab-focus.scssc: unreadable file - could not be backed up
+0002.129 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_table-row.scssc: unreadable file
+0002.131 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_table-row.scssc: unreadable file - could not be backed up
+0002.131 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-emphasis.scssc: unreadable file
+0002.132 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-emphasis.scssc: unreadable file - could not be backed up
+0002.133 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-overflow.scssc: unreadable file
+0002.134 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-overflow.scssc: unreadable file - could not be backed up
+0002.134 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_vendor-prefixes.scssc: unreadable file
+0002.135 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_vendor-prefixes.scssc: unreadable file - could not be backed up
+0002.136 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/8a2ba6adb12b6e6b432d84e26a3dcace730c8311/_fonts.scssc: unreadable file
+0002.137 (0) [Warning] themes/bunited2015/.sass-cache/8a2ba6adb12b6e6b432d84e26a3dcace730c8311/_fonts.scssc: unreadable file - could not be backed up
+0002.138 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_bootstrap.scssc: unreadable file
+0002.139 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_bootstrap.scssc: unreadable file - could not be backed up
+0002.139 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_fonts.scssc: unreadable file
+0002.140 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_fonts.scssc: unreadable file - could not be backed up
+0002.141 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_global.scssc: unreadable file
+0002.142 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_global.scssc: unreadable file - could not be backed up
+0002.143 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_variables.scssc: unreadable file
+0002.144 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_variables.scssc: unreadable file - could not be backed up
+0002.144 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/main.scssc: unreadable file
+0002.145 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/main.scssc: unreadable file - could not be backed up
+0002.146 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_alerts.scssc: unreadable file
+0002.147 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_alerts.scssc: unreadable file - could not be backed up
+0002.148 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_badges.scssc: unreadable file
+0002.149 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_badges.scssc: unreadable file - could not be backed up
+0002.149 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_breadcrumbs.scssc: unreadable file
+0002.151 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_breadcrumbs.scssc: unreadable file - could not be backed up
+0002.151 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_button-groups.scssc: unreadable file
+0002.152 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_button-groups.scssc: unreadable file - could not be backed up
+0002.153 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_buttons.scssc: unreadable file
+0002.154 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_buttons.scssc: unreadable file - could not be backed up
+0002.154 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_carousel.scssc: unreadable file
+0002.156 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_carousel.scssc: unreadable file - could not be backed up
+0002.156 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_close.scssc: unreadable file
+0002.157 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_close.scssc: unreadable file - could not be backed up
+0002.158 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_code.scssc: unreadable file
+0002.159 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_code.scssc: unreadable file - could not be backed up
+0002.160 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_component-animations.scssc: unreadable file
+0002.161 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_component-animations.scssc: unreadable file - could not be backed up
+0002.161 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_dropdowns.scssc: unreadable file
+0002.163 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_dropdowns.scssc: unreadable file - could not be backed up
+0002.163 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_forms.scssc: unreadable file
+0002.165 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_forms.scssc: unreadable file - could not be backed up
+0002.165 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_glyphicons.scssc: unreadable file
+0002.166 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_glyphicons.scssc: unreadable file - could not be backed up
+0002.167 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_grid.scssc: unreadable file
+0002.168 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_grid.scssc: unreadable file - could not be backed up
+0002.169 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_input-groups.scssc: unreadable file
+0002.170 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_input-groups.scssc: unreadable file - could not be backed up
+0002.170 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_jumbotron.scssc: unreadable file
+0002.172 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_jumbotron.scssc: unreadable file - could not be backed up
+0002.172 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_labels.scssc: unreadable file
+0002.174 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_labels.scssc: unreadable file - could not be backed up
+0002.174 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_list-group.scssc: unreadable file
+0002.176 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_list-group.scssc: unreadable file - could not be backed up
+0002.176 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_media.scssc: unreadable file
+0002.177 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_media.scssc: unreadable file - could not be backed up
+0002.178 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_modals.scssc: unreadable file
+0002.179 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_modals.scssc: unreadable file - could not be backed up
+0002.180 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navbar.scssc: unreadable file
+0002.181 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navbar.scssc: unreadable file - could not be backed up
+0002.182 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navs.scssc: unreadable file
+0002.183 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navs.scssc: unreadable file - could not be backed up
+0002.183 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_normalize.scssc: unreadable file
+0002.185 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_normalize.scssc: unreadable file - could not be backed up
+0002.185 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pager.scssc: unreadable file
+0002.187 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pager.scssc: unreadable file - could not be backed up
+0002.187 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pagination.scssc: unreadable file
+0002.189 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pagination.scssc: unreadable file - could not be backed up
+0002.189 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_panels.scssc: unreadable file
+0002.191 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_panels.scssc: unreadable file - could not be backed up
+0002.191 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_popovers.scssc: unreadable file
+0002.193 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_popovers.scssc: unreadable file - could not be backed up
+0002.193 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_print.scssc: unreadable file
+0002.195 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_print.scssc: unreadable file - could not be backed up
+0002.197 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_progress-bars.scssc: unreadable file
+0002.199 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_progress-bars.scssc: unreadable file - could not be backed up
+0002.200 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-embed.scssc: unreadable file
+0002.201 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-embed.scssc: unreadable file - could not be backed up
+0002.202 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-utilities.scssc: unreadable file
+0002.204 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-utilities.scssc: unreadable file - could not be backed up
+0002.204 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_scaffolding.scssc: unreadable file
+0002.206 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_scaffolding.scssc: unreadable file - could not be backed up
+0002.206 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tables.scssc: unreadable file
+0002.208 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tables.scssc: unreadable file - could not be backed up
+0002.208 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_thumbnails.scssc: unreadable file
+0002.210 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_thumbnails.scssc: unreadable file - could not be backed up
+0002.210 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tooltip.scssc: unreadable file
+0002.212 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tooltip.scssc: unreadable file - could not be backed up
+0002.212 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_type.scssc: unreadable file
+0002.214 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_type.scssc: unreadable file - could not be backed up
+0002.214 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_utilities.scssc: unreadable file
+0002.216 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_utilities.scssc: unreadable file - could not be backed up
+0002.217 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_variables.scssc: unreadable file
+0002.218 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_variables.scssc: unreadable file - could not be backed up
+0002.219 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_wells.scssc: unreadable file
+0002.220 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_wells.scssc: unreadable file - could not be backed up
+0002.221 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_footer.scssc: unreadable file
+0002.223 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_footer.scssc: unreadable file - could not be backed up
+0002.223 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_general.scssc: unreadable file
+0002.225 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_general.scssc: unreadable file - could not be backed up
+0002.225 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_header.scssc: unreadable file
+0002.227 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_header.scssc: unreadable file - could not be backed up
+0002.227 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_pages.scssc: unreadable file
+0002.229 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_pages.scssc: unreadable file - could not be backed up
+0002.229 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_posts.scssc: unreadable file
+0002.231 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_posts.scssc: unreadable file - could not be backed up
+0002.232 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_sidebar.scssc: unreadable file
+0002.234 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_sidebar.scssc: unreadable file - could not be backed up
+0002.234 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_buttons.scssc: unreadable file
+0002.236 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_buttons.scssc: unreadable file - could not be backed up
+0002.236 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_forms.scssc: unreadable file
+0002.238 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_forms.scssc: unreadable file - could not be backed up
+0002.238 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_media.scssc: unreadable file
+0002.240 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_media.scssc: unreadable file - could not be backed up
+0002.241 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_wp-classes.scssc: unreadable file
+0002.242 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_wp-classes.scssc: unreadable file - could not be backed up
+0002.749 (0) Total entities for the zip file: 1927 directories, 9336 files (0 skipped as non-modified), 52.6 Mb
+0002.757 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.761 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.764 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.768 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.771 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.772 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 Mb, 9336 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0003.273 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: size is now: 2.10 Mb
+0003.283 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 600 files added (on-disk size: 2106.1 Kb)
+0003.287 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 700 files added (on-disk size: 2106.1 Kb)
+0003.291 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 800 files added (on-disk size: 2106.1 Kb)
+0003.294 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 900 files added (on-disk size: 2106.1 Kb)
+0003.298 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1000 files added (on-disk size: 2106.1 Kb)
+0003.298 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 Mb, 9336 files batched, 501 (1002) added so far); re-opening (prior size: 2106.1 Kb)
+0003.506 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: size is now: 3.20 Mb
+0003.514 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1100 files added (on-disk size: 3271.9 Kb)
+0003.518 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1200 files added (on-disk size: 3271.9 Kb)
+0003.521 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1300 files added (on-disk size: 3271.9 Kb)
+0003.525 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1400 files added (on-disk size: 3271.9 Kb)
+0003.528 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1500 files added (on-disk size: 3271.9 Kb)
+0003.529 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 Mb, 9336 files batched, 501 (1503) added so far); re-opening (prior size: 3271.9 Kb)
+0003.723 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: size is now: 3.90 Mb
+0003.733 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1600 files added (on-disk size: 3995.4 Kb)
+0003.737 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1700 files added (on-disk size: 3995.4 Kb)
+0003.741 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1800 files added (on-disk size: 3995.4 Kb)
+0003.744 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 1900 files added (on-disk size: 3995.4 Kb)
+0003.748 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2000 files added (on-disk size: 3995.4 Kb)
+0003.748 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 Mb, 9336 files batched, 501 (2004) added so far); re-opening (prior size: 3995.4 Kb)
+0004.872 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: size is now: 5.40 Mb
+0004.881 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2100 files added (on-disk size: 5489.1 Kb)
+0004.884 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2200 files added (on-disk size: 5489.1 Kb)
+0004.888 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2300 files added (on-disk size: 5489.1 Kb)
+0004.892 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2400 files added (on-disk size: 5489.1 Kb)
+0004.896 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2500 files added (on-disk size: 5489.1 Kb)
+0004.897 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 Mb, 9336 files batched, 501 (2505) added so far); re-opening (prior size: 5489.1 Kb)
+0005.043 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2600 files added (on-disk size: 5819.8 Kb)
+0005.047 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2700 files added (on-disk size: 5819.8 Kb)
+0005.050 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2800 files added (on-disk size: 5819.8 Kb)
+0005.054 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 2900 files added (on-disk size: 5819.8 Kb)
+0005.057 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3000 files added (on-disk size: 5819.8 Kb)
+0005.058 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 Mb, 9336 files batched, 501 (3006) added so far); re-opening (prior size: 5819.8 Kb)
+0007.649 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: size is now: 6.80 Mb
+0007.660 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3100 files added (on-disk size: 7013.1 Kb)
+0007.663 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3200 files added (on-disk size: 7013.1 Kb)
+0007.667 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3300 files added (on-disk size: 7013.1 Kb)
+0007.671 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3400 files added (on-disk size: 7013.1 Kb)
+0007.674 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3500 files added (on-disk size: 7013.1 Kb)
+0007.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 Mb, 9336 files batched, 501 (3507) added so far); re-opening (prior size: 7013.1 Kb)
+0007.880 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3600 files added (on-disk size: 7602.7 Kb)
+0007.884 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3700 files added (on-disk size: 7602.7 Kb)
+0007.888 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3800 files added (on-disk size: 7602.7 Kb)
+0007.892 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 3900 files added (on-disk size: 7602.7 Kb)
+0007.896 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4000 files added (on-disk size: 7602.7 Kb)
+0007.896 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 Mb, 9336 files batched, 501 (4008) added so far); re-opening (prior size: 7602.7 Kb)
+0008.267 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4100 files added (on-disk size: 7958.9 Kb)
+0008.271 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4200 files added (on-disk size: 7958.9 Kb)
+0008.275 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4300 files added (on-disk size: 7958.9 Kb)
+0008.279 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4400 files added (on-disk size: 7958.9 Kb)
+0008.282 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4500 files added (on-disk size: 7958.9 Kb)
+0008.283 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 Mb, 9336 files batched, 501 (4509) added so far); re-opening (prior size: 7958.9 Kb)
+0008.816 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4600 files added (on-disk size: 8504.8 Kb)
+0008.819 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4700 files added (on-disk size: 8504.8 Kb)
+0008.823 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4800 files added (on-disk size: 8504.8 Kb)
+0008.826 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 4900 files added (on-disk size: 8504.8 Kb)
+0008.830 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5000 files added (on-disk size: 8504.8 Kb)
+0008.830 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 Mb, 9336 files batched, 501 (5010) added so far); re-opening (prior size: 8504.8 Kb)
+0009.815 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5100 files added (on-disk size: 9682.3 Kb)
+0009.819 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5200 files added (on-disk size: 9682.3 Kb)
+0009.823 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5300 files added (on-disk size: 9682.3 Kb)
+0009.827 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5400 files added (on-disk size: 9682.3 Kb)
+0009.831 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5500 files added (on-disk size: 9682.3 Kb)
+0009.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 Mb, 9336 files batched, 501 (5511) added so far); re-opening (prior size: 9682.3 Kb)
+0010.087 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5600 files added (on-disk size: 9973.4 Kb)
+0010.091 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5700 files added (on-disk size: 9973.4 Kb)
+0010.095 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5800 files added (on-disk size: 9973.4 Kb)
+0010.098 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 5900 files added (on-disk size: 9973.4 Kb)
+0010.102 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6000 files added (on-disk size: 9973.4 Kb)
+0010.103 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 Mb, 9336 files batched, 501 (6012) added so far); re-opening (prior size: 9973.4 Kb)
+0012.102 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6100 files added (on-disk size: 10930.6 Kb)
+0012.105 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6200 files added (on-disk size: 10930.6 Kb)
+0012.109 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6300 files added (on-disk size: 10930.6 Kb)
+0012.112 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6400 files added (on-disk size: 10930.6 Kb)
+0012.116 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6500 files added (on-disk size: 10930.6 Kb)
+0012.117 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 Mb, 9336 files batched, 501 (6513) added so far); re-opening (prior size: 10930.6 Kb)
+0012.369 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6600 files added (on-disk size: 11620.4 Kb)
+0012.372 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6700 files added (on-disk size: 11620.4 Kb)
+0012.376 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6800 files added (on-disk size: 11620.4 Kb)
+0012.379 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 6900 files added (on-disk size: 11620.4 Kb)
+0012.383 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7000 files added (on-disk size: 11620.4 Kb)
+0012.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 Mb, 9336 files batched, 501 (7014) added so far); re-opening (prior size: 11620.4 Kb)
+0018.473 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7100 files added (on-disk size: 13175.8 Kb)
+0018.478 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7200 files added (on-disk size: 13175.8 Kb)
+0018.482 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7300 files added (on-disk size: 13175.8 Kb)
+0018.486 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7400 files added (on-disk size: 13175.8 Kb)
+0018.490 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7500 files added (on-disk size: 13175.8 Kb)
+0018.491 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 Mb, 9336 files batched, 501 (7515) added so far); re-opening (prior size: 13175.8 Kb)
+0024.809 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7600 files added (on-disk size: 14055.1 Kb)
+0024.812 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7700 files added (on-disk size: 14055.1 Kb)
+0024.816 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7800 files added (on-disk size: 14055.1 Kb)
+0024.819 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 7900 files added (on-disk size: 14055.1 Kb)
+0024.822 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8000 files added (on-disk size: 14055.1 Kb)
+0024.844 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 Mb, 9336 files batched, 501 (8016) added so far); re-opening (prior size: 14055.1 Kb)
+0029.361 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8100 files added (on-disk size: 15178.9 Kb)
+0029.372 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8200 files added (on-disk size: 15178.9 Kb)
+0029.376 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8300 files added (on-disk size: 15178.9 Kb)
+0029.379 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8400 files added (on-disk size: 15178.9 Kb)
+0029.383 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8500 files added (on-disk size: 15178.9 Kb)
+0029.384 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 Mb, 9336 files batched, 501 (8517) added so far); re-opening (prior size: 15178.9 Kb)
+0032.389 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8600 files added (on-disk size: 16897.6 Kb)
+0032.400 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8700 files added (on-disk size: 16897.6 Kb)
+0032.403 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8800 files added (on-disk size: 16897.6 Kb)
+0032.406 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 8900 files added (on-disk size: 16897.6 Kb)
+0032.410 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 9000 files added (on-disk size: 16897.6 Kb)
+0032.411 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 Mb, 9336 files batched, 501 (9018) added so far); re-opening (prior size: 16897.6 Kb)
+0035.133 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 9100 files added (on-disk size: 18156 Kb)
+0035.136 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 9200 files added (on-disk size: 18156 Kb)
+0035.140 (0) Zip: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip.tmp: 9300 files added (on-disk size: 18156 Kb)
+0037.535 (0) Created themes zip (0) - 18629.7 Kb in 35.4 s (525.6 Kb/s) (SHA1 checksum: 49bb5b93837e962e009c85087882d05d6fb5f6f9)
+0037.538 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0037.538 (0) Looking for candidates to back up in: /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/uploads
+0037.539 (0) finding files: .DS_Store: adding to list (1)
+0037.539 (0) finding files: beardedvest-150x150.jpg: adding to list (2)
+0037.540 (0) finding files: beardedvest-300x300.jpg: adding to list (3)
+0037.540 (0) finding files: beardedvest.jpg: adding to list (4)
+0037.540 (0) finding files: bunitedgroup-150x150.jpg: adding to list (5)
+0037.541 (0) finding files: bunitedgroup-300x224.jpg: adding to list (6)
+0037.541 (0) finding files: bunitedgroup.jpg: adding to list (7)
+0037.541 (0) finding files: triplesolo-150x150.jpg: adding to list (8)
+0037.542 (0) finding files: triplesolo-300x293.jpg: adding to list (9)
+0037.542 (0) finding files: triplesolo.jpg: adding to list (10)
+0037.543 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0037.547 (0) Total entities for the zip file: 0 directories, 10 files (0 skipped as non-modified), 0.6 Mb
+0037.695 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-uploads.zip.tmp: size is now: 0.60 Mb
+0037.703 (0) Created uploads zip (0) - 567 Kb in 0.2 s (3555.8 Kb/s) (SHA1 checksum: f5ea291dd290c855d8aa604d28cfe570f2fa2064)
+0037.708 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.708 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0037.709 (0) Looking for candidates to back up in: /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content
+0037.709 (0) finding files: .DS_Store: adding to list (1)
+0037.709 (0) finding files: index.php: adding to list (2)
+0037.710 (0) finding files: plugins: skipping: this is the plugins directory
+0037.710 (0) finding files: themes: skipping: this is the themes directory
+0037.710 (0) finding files: updraft: skipping: this is the updraft directory
+0037.711 (0) finding files: upgrade: skipping: excluded by options
+0037.711 (0) finding files: uploads: skipping: this is the uploads directory
+0037.715 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 Mb
+0037.765 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-others.zip.tmp: size is now: 0.00 Mb
+0037.772 (0) Created others zip (0) - 0.5 Kb in 0.1 s (8.5 Kb/s) (SHA1 checksum: adfae284fd4d7b7f13de9d5bee817f6ddde0f205)
+0037.779 (0) Saving backup status to database (elements: 8)
+0037.780 (0) No database backup (wp) - not part of this run
+0037.781 (0) Saving backup history
+0037.782 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0037.782 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0037.783 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0037.783 (0) backup_2015-01-07-2130_Banner_United_ce04ba8af429-others.zip: others: This file has not yet been successfully uploaded: will queue
+0037.785 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0037.789 (0) Cloud backup selection: none
+0037.789 (0) No remote despatch: user chose no remote backup service
+0037.791 (0) Recording as successfully uploaded: backup_2015-01-07-2130_Banner_United_ce04ba8af429-plugins.zip (3bece641bc46441af96660c832540819)
+0037.800 (0) Recording as successfully uploaded: backup_2015-01-07-2130_Banner_United_ce04ba8af429-themes.zip (215fc6fa95f516b6fd9e8899cb0655f5)
+0037.806 (0) Recording as successfully uploaded: backup_2015-01-07-2130_Banner_United_ce04ba8af429-uploads.zip (8a254d2f037d484a40976b4f9e6825cb)
+0037.811 (0) Recording as successfully uploaded: backup_2015-01-07-2130_Banner_United_ce04ba8af429-others.zip (72e51f63f3997d47ebb4cabae6555b04)
+0037.817 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=12, retain_db=6
+0037.818 (0) Number of backup sets in history: 5
+0037.818 (0) Examining backup set with datestamp: 1420666202 (Jan 07 2015 21:30:02)
+0037.821 (0) 1420666202: this backup set remains non-empty (1/0); will retain in history
+0037.821 (0) Examining backup set with datestamp: 1420666086 (Jan 07 2015 21:28:06)
+0037.822 (0) 1420666086: db: this set includes a database (backup_2015-01-07-2128_Banner_United_f3c708a0bd23-db.gz); db count is now 1
+0037.824 (0) 1420666086: this backup set remains non-empty (0/1); will retain in history
+0037.825 (0) Examining backup set with datestamp: 1420591143 (Jan 07 2015 00:39:03)
+0037.825 (0) 1420591143: db: this set includes a database (backup_2015-01-07-0039_Banner_United_bcd35c3bf79c-db.gz); db count is now 2
+0037.828 (0) 1420591143: this backup set remains non-empty (0/1); will retain in history
+0037.829 (0) Examining backup set with datestamp: 1420591122 (Jan 07 2015 00:38:42)
+0037.829 (0) 1420591122: db: this set includes a database (backup_2015-01-07-0038_Banner_United_1d272f86c508-db.gz); db count is now 3
+0037.831 (0) 1420591122: this backup set remains non-empty (0/1); will retain in history
+0037.832 (0) Examining backup set with datestamp: 1420591061 (Jan 07 2015 00:37:41)
+0037.834 (0) 1420591061: this backup set remains non-empty (1/0); will retain in history
+0037.834 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0037.835 (0) Resume backup (ce04ba8af429, 0): finish run
+0037.838 (0) Decremented the semaphore (f) by 1
+0037.839 (0) Semaphore (f) unlocked
+0037.839 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0037.843 (0) No email will/can be sent - the user has not configured an email address.
+0037.844 (0) The backup apparently succeeded (with warnings) and is now complete

@@ -1,0 +1,21 @@
+.footer {
+    background: $darkgrey;
+    padding:15px 15px 30px 15px;
+
+	.footer_widget {
+		margin-top: 15px;
+		section {
+			background:$darkgrey + 20;
+			padding: 30px 15px;
+			color:white;
+		}
+	}
+}
+.sub_footer {
+	padding-top:5px;
+	background:black;
+	text-align:center;
+	p {
+		margin:0;
+	}
+}

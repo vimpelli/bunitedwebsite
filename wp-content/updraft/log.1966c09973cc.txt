@@ -1,0 +1,1207 @@
+0000.084 (0) Opened log file at time: Wed, 07 Jan 2015 13:11:48 +0000 on http://www.bunited.dev
+0000.164 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.4.19 (Darwin Vincent-Impellizzeris-MacBook-Pro.local 13.4.0 Darwin Kernel Version 13.4.0: Sun Aug 17 19:50:11 PDT 2014; root:xnu-2422.115.4~1/RELEASE_X86_64 x86_64) MySQL: 5.1.44 Server: Apache/2.4.4 (Unix) PHP/5.4.19 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 15M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.165 (0) Free space on disk containing Updraft's temporary directory: 78966.2 Mb
+0001.003 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every8hours)
+0001.004 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0001.135 (0) Requesting semaphore lock (f)
+0001.215 (0) Set semaphore last lock (f) time to 2015-01-07 13:11:50
+0001.216 (0) Semaphore lock (f) complete
+0001.263 (0) Backup run: resumption=0, nonce=1966c09973cc, begun at=1420636308 (2s ago), job type=backup
+0001.264 (0) Scheduling a resumption (1) after 300 seconds (1420636610) in case this run gets aborted
+0001.482 (0) Checking if we have a zip executable available
+0001.637 (0) Testing: /usr/bin/zip
+0002.838 (0) Output: zip warning: binziptest/test.zip not found or empty
+0003.089 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0003.091 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0003.091 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0003.092 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0004.769 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0004.773 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0005.610 (0) Working binary zip found: /usr/bin/zip
+0005.612 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0005.613 (0) Creation of backups of directories: beginning
+0006.060 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0011.342 (0) Total entities for the zip file: 90 directories, 562 files (0 skipped as non-modified), 12.7 Mb
+0011.652 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0012.242 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: size is now: 0.00 Mb
+0012.248 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: 100 files added (on-disk size: 25 Kb)
+0012.351 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: 200 files added (on-disk size: 25 Kb)
+0012.355 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: 300 files added (on-disk size: 25 Kb)
+0012.557 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: 400 files added (on-disk size: 25 Kb)
+0012.620 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: 500 files added (on-disk size: 25 Kb)
+0012.621 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.3 Mb, 562 files batched, 501 (502) added so far); re-opening (prior size: 25 Kb)
+0018.480 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip.tmp: size is now: 4.10 Mb
+0018.759 (0) Created plugins zip (0) - 4278.3 Kb in 12.2 s (349.5 Kb/s) (SHA1 checksum: 6b76c83c527f9c693480fd08a657be42837c931b)
+0018.761 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0018.763 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/5d57d4873e08eb2a8617e0f2ed3b82da46b1bf10/_home.scssc: unreadable file
+0018.764 (0) [Warning] themes/bunited2015/.sass-cache/5d57d4873e08eb2a8617e0f2ed3b82da46b1bf10/_home.scssc: unreadable file - could not be backed up
+0018.800 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_alerts.scssc: unreadable file
+0018.802 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_alerts.scssc: unreadable file - could not be backed up
+0018.802 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_background-variant.scssc: unreadable file
+0018.804 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_background-variant.scssc: unreadable file - could not be backed up
+0018.804 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_border-radius.scssc: unreadable file
+0018.806 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_border-radius.scssc: unreadable file - could not be backed up
+0018.808 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_buttons.scssc: unreadable file
+0018.809 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_buttons.scssc: unreadable file - could not be backed up
+0018.810 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_center-block.scssc: unreadable file
+0018.812 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_center-block.scssc: unreadable file - could not be backed up
+0018.813 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_clearfix.scssc: unreadable file
+0018.815 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_clearfix.scssc: unreadable file - could not be backed up
+0018.817 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_forms.scssc: unreadable file
+0018.818 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_forms.scssc: unreadable file - could not be backed up
+0018.818 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_gradients.scssc: unreadable file
+0018.819 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_gradients.scssc: unreadable file - could not be backed up
+0018.820 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid-framework.scssc: unreadable file
+0018.820 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid-framework.scssc: unreadable file - could not be backed up
+0018.821 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid.scssc: unreadable file
+0018.822 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid.scssc: unreadable file - could not be backed up
+0018.822 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_hide-text.scssc: unreadable file
+0018.823 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_hide-text.scssc: unreadable file - could not be backed up
+0018.824 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_image.scssc: unreadable file
+0018.825 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_image.scssc: unreadable file - could not be backed up
+0018.825 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_labels.scssc: unreadable file
+0018.826 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_labels.scssc: unreadable file - could not be backed up
+0018.826 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_list-group.scssc: unreadable file
+0019.207 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_list-group.scssc: unreadable file - could not be backed up
+0019.208 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-divider.scssc: unreadable file
+0019.210 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-divider.scssc: unreadable file - could not be backed up
+0019.211 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-vertical-align.scssc: unreadable file
+0019.213 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-vertical-align.scssc: unreadable file - could not be backed up
+0019.213 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_opacity.scssc: unreadable file
+0019.215 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_opacity.scssc: unreadable file - could not be backed up
+0019.216 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_pagination.scssc: unreadable file
+0019.218 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_pagination.scssc: unreadable file - could not be backed up
+0019.219 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_panels.scssc: unreadable file
+0019.221 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_panels.scssc: unreadable file - could not be backed up
+0019.222 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_progress-bar.scssc: unreadable file
+0019.224 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_progress-bar.scssc: unreadable file - could not be backed up
+0019.225 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_reset-filter.scssc: unreadable file
+0019.227 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_reset-filter.scssc: unreadable file - could not be backed up
+0019.227 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_resize.scssc: unreadable file
+0019.229 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_resize.scssc: unreadable file - could not be backed up
+0019.230 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_responsive-visibility.scssc: unreadable file
+0019.231 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_responsive-visibility.scssc: unreadable file - could not be backed up
+0019.232 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_size.scssc: unreadable file
+0019.234 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_size.scssc: unreadable file - could not be backed up
+0019.234 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_tab-focus.scssc: unreadable file
+0019.717 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_tab-focus.scssc: unreadable file - could not be backed up
+0019.717 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_table-row.scssc: unreadable file
+0019.719 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_table-row.scssc: unreadable file - could not be backed up
+0019.916 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-emphasis.scssc: unreadable file
+0019.918 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-emphasis.scssc: unreadable file - could not be backed up
+0020.163 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-overflow.scssc: unreadable file
+0020.165 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-overflow.scssc: unreadable file - could not be backed up
+0020.166 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_vendor-prefixes.scssc: unreadable file
+0020.168 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_vendor-prefixes.scssc: unreadable file - could not be backed up
+0020.169 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/8a2ba6adb12b6e6b432d84e26a3dcace730c8311/_fonts.scssc: unreadable file
+0020.171 (0) [Warning] themes/bunited2015/.sass-cache/8a2ba6adb12b6e6b432d84e26a3dcace730c8311/_fonts.scssc: unreadable file - could not be backed up
+0020.172 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_bootstrap.scssc: unreadable file
+0020.173 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_bootstrap.scssc: unreadable file - could not be backed up
+0020.174 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_fonts.scssc: unreadable file
+0020.175 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_fonts.scssc: unreadable file - could not be backed up
+0020.176 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_global.scssc: unreadable file
+0020.177 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_global.scssc: unreadable file - could not be backed up
+0020.178 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_variables.scssc: unreadable file
+0020.179 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_variables.scssc: unreadable file - could not be backed up
+0020.180 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/main.scssc: unreadable file
+0020.181 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/main.scssc: unreadable file - could not be backed up
+0020.275 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_alerts.scssc: unreadable file
+0020.278 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_alerts.scssc: unreadable file - could not be backed up
+0020.487 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_badges.scssc: unreadable file
+0020.489 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_badges.scssc: unreadable file - could not be backed up
+0020.490 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_breadcrumbs.scssc: unreadable file
+0020.491 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_breadcrumbs.scssc: unreadable file - could not be backed up
+0020.492 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_button-groups.scssc: unreadable file
+0020.494 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_button-groups.scssc: unreadable file - could not be backed up
+0020.495 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_buttons.scssc: unreadable file
+0020.497 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_buttons.scssc: unreadable file - could not be backed up
+0020.497 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_carousel.scssc: unreadable file
+0020.608 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_carousel.scssc: unreadable file - could not be backed up
+0020.622 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_close.scssc: unreadable file
+0020.624 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_close.scssc: unreadable file - could not be backed up
+0020.624 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_code.scssc: unreadable file
+0020.626 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_code.scssc: unreadable file - could not be backed up
+0020.626 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_component-animations.scssc: unreadable file
+0020.628 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_component-animations.scssc: unreadable file - could not be backed up
+0020.628 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_dropdowns.scssc: unreadable file
+0020.630 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_dropdowns.scssc: unreadable file - could not be backed up
+0020.630 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_forms.scssc: unreadable file
+0020.632 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_forms.scssc: unreadable file - could not be backed up
+0020.632 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_glyphicons.scssc: unreadable file
+0020.634 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_glyphicons.scssc: unreadable file - could not be backed up
+0020.635 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_grid.scssc: unreadable file
+0020.636 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_grid.scssc: unreadable file - could not be backed up
+0020.637 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_input-groups.scssc: unreadable file
+0020.639 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_input-groups.scssc: unreadable file - could not be backed up
+0020.639 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_jumbotron.scssc: unreadable file
+0020.641 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_jumbotron.scssc: unreadable file - could not be backed up
+0020.642 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_labels.scssc: unreadable file
+0020.643 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_labels.scssc: unreadable file - could not be backed up
+0020.644 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_list-group.scssc: unreadable file
+0020.646 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_list-group.scssc: unreadable file - could not be backed up
+0020.646 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_media.scssc: unreadable file
+0020.648 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_media.scssc: unreadable file - could not be backed up
+0020.648 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_modals.scssc: unreadable file
+0020.650 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_modals.scssc: unreadable file - could not be backed up
+0020.650 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navbar.scssc: unreadable file
+0020.652 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navbar.scssc: unreadable file - could not be backed up
+0020.653 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navs.scssc: unreadable file
+0020.654 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navs.scssc: unreadable file - could not be backed up
+0020.655 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_normalize.scssc: unreadable file
+0020.657 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_normalize.scssc: unreadable file - could not be backed up
+0020.657 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pager.scssc: unreadable file
+0020.659 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pager.scssc: unreadable file - could not be backed up
+0020.659 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pagination.scssc: unreadable file
+0020.661 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pagination.scssc: unreadable file - could not be backed up
+0020.661 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_panels.scssc: unreadable file
+0020.663 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_panels.scssc: unreadable file - could not be backed up
+0020.664 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_popovers.scssc: unreadable file
+0020.665 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_popovers.scssc: unreadable file - could not be backed up
+0020.666 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_print.scssc: unreadable file
+0020.668 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_print.scssc: unreadable file - could not be backed up
+0020.668 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_progress-bars.scssc: unreadable file
+0020.670 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_progress-bars.scssc: unreadable file - could not be backed up
+0020.671 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-embed.scssc: unreadable file
+0020.672 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-embed.scssc: unreadable file - could not be backed up
+0020.673 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-utilities.scssc: unreadable file
+0020.675 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-utilities.scssc: unreadable file - could not be backed up
+0020.675 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_scaffolding.scssc: unreadable file
+0020.677 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_scaffolding.scssc: unreadable file - could not be backed up
+0020.678 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tables.scssc: unreadable file
+0020.680 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tables.scssc: unreadable file - could not be backed up
+0020.680 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_thumbnails.scssc: unreadable file
+0020.682 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_thumbnails.scssc: unreadable file - could not be backed up
+0020.682 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tooltip.scssc: unreadable file
+0020.684 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tooltip.scssc: unreadable file - could not be backed up
+0020.685 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_type.scssc: unreadable file
+0020.687 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_type.scssc: unreadable file - could not be backed up
+0020.687 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_utilities.scssc: unreadable file
+0020.879 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_utilities.scssc: unreadable file - could not be backed up
+0020.880 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_variables.scssc: unreadable file
+0020.883 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_variables.scssc: unreadable file - could not be backed up
+0020.884 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_wells.scssc: unreadable file
+0020.887 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_wells.scssc: unreadable file - could not be backed up
+0020.887 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_footer.scssc: unreadable file
+0020.890 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_footer.scssc: unreadable file - could not be backed up
+0020.891 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_general.scssc: unreadable file
+0020.893 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_general.scssc: unreadable file - could not be backed up
+0020.894 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_header.scssc: unreadable file
+0020.896 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_header.scssc: unreadable file - could not be backed up
+0020.897 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_pages.scssc: unreadable file
+0020.899 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_pages.scssc: unreadable file - could not be backed up
+0020.900 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_posts.scssc: unreadable file
+0020.902 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_posts.scssc: unreadable file - could not be backed up
+0020.902 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_sidebar.scssc: unreadable file
+0020.904 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_sidebar.scssc: unreadable file - could not be backed up
+0020.905 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_buttons.scssc: unreadable file
+0020.907 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_buttons.scssc: unreadable file - could not be backed up
+0020.908 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_forms.scssc: unreadable file
+0020.909 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_forms.scssc: unreadable file - could not be backed up
+0020.910 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_media.scssc: unreadable file
+0020.912 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_media.scssc: unreadable file - could not be backed up
+0020.913 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_wp-classes.scssc: unreadable file
+0020.915 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_wp-classes.scssc: unreadable file - could not be backed up
+29757.455 (0) Total entities for the zip file: 1927 directories, 9336 files (0 skipped as non-modified), 52.6 Mb
+29757.486 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+29760.237 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 0.60 Mb
+29760.327 (0) The time we have been running (29760.2) is approaching the resumption interval (300) - increasing resumption interval to 29791
+29760.885 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 100 files added (on-disk size: 634.5 Kb)
+29760.907 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 200 files added (on-disk size: 634.5 Kb)
+29760.911 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 300 files added (on-disk size: 634.5 Kb)
+29760.916 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 400 files added (on-disk size: 634.5 Kb)
+29760.920 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 500 files added (on-disk size: 634.5 Kb)
+29760.921 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 Mb, 9336 files batched, 501 (502) added so far); re-opening (prior size: 634.5 Kb)
+29766.333 (0) The time we have been running (29766.2) is approaching the resumption interval (29791) - increasing resumption interval to 29797
+29772.220 (0) The time we have been running (29772.1) is approaching the resumption interval (29797) - increasing resumption interval to 29803
+29778.214 (0) The time we have been running (29778.1) is approaching the resumption interval (29803) - increasing resumption interval to 29809
+0003.302 (1) Opened log file at time: Wed, 07 Jan 2015 21:28:09 +0000 on http://www.bunited.dev
+0003.303 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.4.19 (Darwin Vincent-Impellizzeris-MacBook-Pro.local 13.4.0 Darwin Kernel Version 13.4.0: Sun Aug 17 19:50:11 PDT 2014; root:xnu-2422.115.4~1/RELEASE_X86_64 x86_64) MySQL: 5.1.44 Server: Apache/2.4.4 (Unix) PHP/5.4.19 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.7M | 19.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0003.303 (1) Free space on disk containing Updraft's temporary directory: 78952 Mb
+0003.305 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1420666089, time_now=1420666089.8, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0003.305 (1) Rescheduling resumption 2: moving to 720 seconds from now (1420666809)
+0003.307 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 120 = 720
+29783.585 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 2.10 Mb
+29783.591 (0) The time we have been running (29783.5) is approaching the resumption interval (29809) - increasing resumption interval to 29814
+29783.598 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 600 files added (on-disk size: 2106.6 Kb)
+29783.604 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 700 files added (on-disk size: 2106.6 Kb)
+29783.609 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 800 files added (on-disk size: 2106.6 Kb)
+29783.615 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 900 files added (on-disk size: 2106.6 Kb)
+29783.621 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1000 files added (on-disk size: 2106.6 Kb)
+29783.622 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 Mb, 9336 files batched, 501 (1003) added so far); re-opening (prior size: 2106.6 Kb)
+29789.734 (0) The time we have been running (29789.2) is approaching the resumption interval (29814) - increasing resumption interval to 29820
+29795.202 (0) The time we have been running (29795.1) is approaching the resumption interval (29820) - increasing resumption interval to 29826
+29800.236 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 3.20 Mb
+29800.243 (0) The time we have been running (29800.2) is approaching the resumption interval (29826) - increasing resumption interval to 29831
+29800.253 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1100 files added (on-disk size: 3272.4 Kb)
+29800.269 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1200 files added (on-disk size: 3272.4 Kb)
+29800.275 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1300 files added (on-disk size: 3272.4 Kb)
+29800.282 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1400 files added (on-disk size: 3272.4 Kb)
+29800.288 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1500 files added (on-disk size: 3272.4 Kb)
+29800.289 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 Mb, 9336 files batched, 501 (1504) added so far); re-opening (prior size: 3272.4 Kb)
+29806.271 (0) The time we have been running (29806.2) is approaching the resumption interval (29831) - increasing resumption interval to 29837
+29806.658 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 3.90 Mb
+29806.669 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1600 files added (on-disk size: 3996.4 Kb)
+29806.676 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1700 files added (on-disk size: 3996.4 Kb)
+29806.682 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1800 files added (on-disk size: 3996.4 Kb)
+29806.688 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1900 files added (on-disk size: 3996.4 Kb)
+29806.693 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2000 files added (on-disk size: 3996.4 Kb)
+29806.694 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 Mb, 9336 files batched, 501 (2005) added so far); re-opening (prior size: 3996.4 Kb)
+29812.473 (0) The time we have been running (29812.4) is approaching the resumption interval (29837) - increasing resumption interval to 29843
+29814.125 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 5.40 Mb
+29814.130 (0) The time we have been running (29814) is approaching the resumption interval (29843) - increasing resumption interval to 29845
+29814.135 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2100 files added (on-disk size: 5489.6 Kb)
+29814.140 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2200 files added (on-disk size: 5489.6 Kb)
+29814.145 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2300 files added (on-disk size: 5489.6 Kb)
+29814.149 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2400 files added (on-disk size: 5489.6 Kb)
+29814.154 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2500 files added (on-disk size: 5489.6 Kb)
+29814.155 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.3 Mb, 9336 files batched, 501 (2506) added so far); re-opening (prior size: 5489.6 Kb)
+29819.006 (0) The time we have been running (29818.9) is approaching the resumption interval (29845) - increasing resumption interval to 29849
+29819.013 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2600 files added (on-disk size: 5820.3 Kb)
+29819.017 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2700 files added (on-disk size: 5820.3 Kb)
+29819.024 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2800 files added (on-disk size: 5820.3 Kb)
+29819.030 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2900 files added (on-disk size: 5820.3 Kb)
+29819.036 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3000 files added (on-disk size: 5820.3 Kb)
+29819.037 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 Mb, 9336 files batched, 501 (3007) added so far); re-opening (prior size: 5820.3 Kb)
+29824.392 (0) The time we have been running (29824.3) is approaching the resumption interval (29849) - increasing resumption interval to 29855
+29828.458 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 6.80 Mb
+29828.464 (0) The time we have been running (29828.4) is approaching the resumption interval (29855) - increasing resumption interval to 29859
+29828.469 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3100 files added (on-disk size: 7014.1 Kb)
+29828.475 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3200 files added (on-disk size: 7014.1 Kb)
+29828.479 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3300 files added (on-disk size: 7014.1 Kb)
+29828.485 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3400 files added (on-disk size: 7014.1 Kb)
+29828.491 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3500 files added (on-disk size: 7014.1 Kb)
+29828.492 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 Mb, 9336 files batched, 501 (3508) added so far); re-opening (prior size: 7014.1 Kb)
+29834.210 (0) The time we have been running (29834.1) is approaching the resumption interval (29859) - increasing resumption interval to 29865
+29836.437 (0) The time we have been running (29836.4) is approaching the resumption interval (29865) - increasing resumption interval to 29867
+29836.445 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3600 files added (on-disk size: 7603.6 Kb)
+29836.452 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3700 files added (on-disk size: 7603.6 Kb)
+29836.460 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3800 files added (on-disk size: 7603.6 Kb)
+29836.469 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3900 files added (on-disk size: 7603.6 Kb)
+29836.476 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4000 files added (on-disk size: 7603.6 Kb)
+29836.478 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 Mb, 9336 files batched, 501 (4009) added so far); re-opening (prior size: 7603.6 Kb)
+29842.360 (0) The time we have been running (29842.3) is approaching the resumption interval (29867) - increasing resumption interval to 29873
+29842.850 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4100 files added (on-disk size: 7959.4 Kb)
+29842.856 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4200 files added (on-disk size: 7959.4 Kb)
+29842.861 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4300 files added (on-disk size: 7959.4 Kb)
+29842.868 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4400 files added (on-disk size: 7959.4 Kb)
+29842.877 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4500 files added (on-disk size: 7959.4 Kb)
+29842.879 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 Mb, 9336 files batched, 501 (4510) added so far); re-opening (prior size: 7959.4 Kb)
+29847.848 (0) The time we have been running (29847.8) is approaching the resumption interval (29873) - increasing resumption interval to 29878
+29847.856 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4600 files added (on-disk size: 8508.9 Kb)
+29847.865 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4700 files added (on-disk size: 8508.9 Kb)
+29847.872 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4800 files added (on-disk size: 8508.9 Kb)
+29847.880 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4900 files added (on-disk size: 8508.9 Kb)
+29847.887 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5000 files added (on-disk size: 8508.9 Kb)
+29847.889 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 Mb, 9336 files batched, 501 (5011) added so far); re-opening (prior size: 8508.9 Kb)
+29853.197 (0) The time we have been running (29853.1) is approaching the resumption interval (29878) - increasing resumption interval to 29884
+29856.714 (0) The time we have been running (29856.6) is approaching the resumption interval (29884) - increasing resumption interval to 29887
+29856.737 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5100 files added (on-disk size: 9682.8 Kb)
+29856.745 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5200 files added (on-disk size: 9682.8 Kb)
+29856.753 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5300 files added (on-disk size: 9682.8 Kb)
+29856.763 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5400 files added (on-disk size: 9682.8 Kb)
+29856.774 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5500 files added (on-disk size: 9682.8 Kb)
+29856.777 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 Mb, 9336 files batched, 501 (5512) added so far); re-opening (prior size: 9682.8 Kb)
+29862.348 (0) The time we have been running (29862.3) is approaching the resumption interval (29887) - increasing resumption interval to 29893
+29868.195 (0) The time we have been running (29868.1) is approaching the resumption interval (29893) - increasing resumption interval to 29899
+29872.806 (0) The time we have been running (29872.7) is approaching the resumption interval (29899) - increasing resumption interval to 29903
+29872.815 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5600 files added (on-disk size: 9973.9 Kb)
+29872.822 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5700 files added (on-disk size: 9973.9 Kb)
+29872.826 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5800 files added (on-disk size: 9973.9 Kb)
+29872.830 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5900 files added (on-disk size: 9973.9 Kb)
+29872.835 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6000 files added (on-disk size: 9973.9 Kb)
+29872.836 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 Mb, 9336 files batched, 501 (6013) added so far); re-opening (prior size: 9973.9 Kb)
+29878.240 (0) The time we have been running (29878.2) is approaching the resumption interval (29903) - increasing resumption interval to 29909
+29884.197 (0) The time we have been running (29884.1) is approaching the resumption interval (29909) - increasing resumption interval to 29915
+29884.373 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6100 files added (on-disk size: 10931.1 Kb)
+29884.378 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6200 files added (on-disk size: 10931.1 Kb)
+29884.383 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6300 files added (on-disk size: 10931.1 Kb)
+29884.387 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6400 files added (on-disk size: 10931.1 Kb)
+29884.392 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6500 files added (on-disk size: 10931.1 Kb)
+29884.393 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 Mb, 9336 files batched, 501 (6514) added so far); re-opening (prior size: 10931.1 Kb)
+29890.203 (0) The time we have been running (29890.1) is approaching the resumption interval (29915) - increasing resumption interval to 29921
+29894.471 (0) The time we have been running (29894.4) is approaching the resumption interval (29921) - increasing resumption interval to 29925
+29894.477 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6600 files added (on-disk size: 11621 Kb)
+29894.485 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6700 files added (on-disk size: 11621 Kb)
+29894.490 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6800 files added (on-disk size: 11621 Kb)
+29894.495 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6900 files added (on-disk size: 11621 Kb)
+29894.499 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7000 files added (on-disk size: 11621 Kb)
+29894.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 Mb, 9336 files batched, 501 (7015) added so far); re-opening (prior size: 11621 Kb)
+29900.212 (0) The time we have been running (29900.1) is approaching the resumption interval (29925) - increasing resumption interval to 29931
+29906.194 (0) The time we have been running (29906.1) is approaching the resumption interval (29931) - increasing resumption interval to 29937
+29912.193 (0) The time we have been running (29912.1) is approaching the resumption interval (29937) - increasing resumption interval to 29943
+29912.506 (0) Binary zip: error (code: 15 - look it up in the Diagnostics section of the zip manual at http://www.info-zip.org/mans/zip.html for interpretation... and also check that your hosting account quota is not full)
+29912.507 (0) The attempt to close the zip file returned an error (). List of files we were trying to add follows (check their permissions).
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/async/package.json (exists: 1, is_readable: 1 size: 1316)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/async/README.md (exists: 1, is_readable: 1 size: 32218)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/.npmignore (exists: 1, is_readable: 1 size: 106)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/CNAME (exists: 1, is_readable: 1 size: 16)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/extras/jsl.conf (exists: 1, is_readable: 1 size: 3532)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/browser.js (exists: 1, is_readable: 1 size: 2336)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/cake.js (exists: 1, is_readable: 1 size: 2970)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/coffee-script.js (exists: 1, is_readable: 1 size: 4831)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/command.js (exists: 1, is_readable: 1 size: 15442)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/grammar.js (exists: 1, is_readable: 1 size: 18271)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/helpers.js (exists: 1, is_readable: 1 size: 1752)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/index.js (exists: 1, is_readable: 1 size: 196)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/lexer.js (exists: 1, is_readable: 1 size: 25508)
+29912.508 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/nodes.js (exists: 1, is_readable: 1 size: 92328)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/optparse.js (exists: 1, is_readable: 1 size: 4100)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/parser.js (exists: 1, is_readable: 1 size: 110524)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/repl.js (exists: 1, is_readable: 1 size: 6874)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/rewriter.js (exists: 1, is_readable: 1 size: 13224)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/scope.js (exists: 1, is_readable: 1 size: 3736)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/LICENSE (exists: 1, is_readable: 1 size: 1063)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/package.json (exists: 1, is_readable: 1 size: 1598)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/Rakefile (exists: 1, is_readable: 1 size: 2252)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/coffee-script/README (exists: 1, is_readable: 1 size: 1864)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/colors.js (exists: 1, is_readable: 1 size: 10646)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/example.html (exists: 1, is_readable: 1 size: 2551)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/example.js (exists: 1, is_readable: 1 size: 2423)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/MIT-LICENSE.txt (exists: 1, is_readable: 1 size: 1085)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/package.json (exists: 1, is_readable: 1 size: 1061)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/ReadMe.md (exists: 1, is_readable: 1 size: 1299)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/test.js (exists: 1, is_readable: 1 size: 2138)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/themes/winston-dark.js (exists: 1, is_readable: 1 size: 198)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/colors/themes/winston-light.js (exists: 1, is_readable: 1 size: 197)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/dateformat/lib/dateformat.js (exists: 1, is_readable: 1 size: 5180)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/dateformat/package.json (exists: 1, is_readable: 1 size: 1167)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/dateformat/Readme.md (exists: 1, is_readable: 1 size: 2151)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/dateformat/test/test_weekofyear.js (exists: 1, is_readable: 1 size: 127)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/dateformat/test/test_weekofyear.sh (exists: 1, is_readable: 1 size: 757)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/eventemitter2/index.js (exists: 1, is_readable: 1 size: 49)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/eventemitter2/lib/eventemitter2.js (exists: 1, is_readable: 1 size: 16392)
+29912.509 (0) File: themes/bunited2015/node_modules/grunt/node_modules/eventemitter2/package.json (exists: 1, is_readable: 1 size: 1957)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/eventemitter2/README.md (exists: 1, is_readable: 1 size: 7252)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/.jshintrc (exists: 1, is_readable: 1 size: 213)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/.npmignore (exists: 1, is_readable: 1 size: 0)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/.travis.yml (exists: 1, is_readable: 1 size: 90)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/Gruntfile.js (exists: 1, is_readable: 1 size: 1008)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/lib/exit.js (exists: 1, is_readable: 1 size: 1146)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/LICENSE-MIT (exists: 1, is_readable: 1 size: 1062)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/package.json (exists: 1, is_readable: 1 size: 4048)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/README.md (exists: 1, is_readable: 1 size: 2352)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/exit_test.js (exists: 1, is_readable: 1 size: 3844)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/10-stderr.txt (exists: 1, is_readable: 1 size: 90)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/10-stdout-stderr.txt (exists: 1, is_readable: 1 size: 180)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/10-stdout.txt (exists: 1, is_readable: 1 size: 90)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/100-stderr.txt (exists: 1, is_readable: 1 size: 990)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/100-stdout-stderr.txt (exists: 1, is_readable: 1 size: 1980)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/100-stdout.txt (exists: 1, is_readable: 1 size: 990)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/1000-stderr.txt (exists: 1, is_readable: 1 size: 10890)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/1000-stdout-stderr.txt (exists: 1, is_readable: 1 size: 21780)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/1000-stdout.txt (exists: 1, is_readable: 1 size: 10890)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/create-files.sh (exists: 1, is_readable: 1 size: 205)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/log-broken.js (exists: 1, is_readable: 1 size: 479)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/exit/test/fixtures/log.js (exists: 1, is_readable: 1 size: 510)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/.jshintrc (exists: 1, is_readable: 1 size: 229)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/.npmignore (exists: 1, is_readable: 1 size: 0)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/.travis.yml (exists: 1, is_readable: 1 size: 79)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/Gruntfile.js (exists: 1, is_readable: 1 size: 495)
+29912.510 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/lib/findup-sync.js (exists: 1, is_readable: 1 size: 1330)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/LICENSE-MIT (exists: 1, is_readable: 1 size: 1062)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/.npmignore (exists: 1, is_readable: 1 size: 15)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/.travis.yml (exists: 1, is_readable: 1 size: 35)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/g.js (exists: 1, is_readable: 1 size: 228)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js (exists: 1, is_readable: 1 size: 218)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/glob.js (exists: 1, is_readable: 1 size: 19564)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/LICENSE (exists: 1, is_readable: 1 size: 1310)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits.js (exists: 1, is_readable: 1 size: 42)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits_browser.js (exists: 1, is_readable: 1 size: 672)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/LICENSE (exists: 1, is_readable: 1 size: 749)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json (exists: 1, is_readable: 1 size: 2896)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/README.md (exists: 1, is_readable: 1 size: 1625)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/test.js (exists: 1, is_readable: 1 size: 510)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/.npmignore (exists: 1, is_readable: 1 size: 13)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/minimatch.js (exists: 1, is_readable: 1 size: 28511)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore (exists: 1, is_readable: 1 size: 14)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS (exists: 1, is_readable: 1 size: 524)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js (exists: 1, is_readable: 1 size: 6445)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json (exists: 1, is_readable: 1 size: 1281)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md (exists: 1, is_readable: 1 size: 3209)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js (exists: 1, is_readable: 1 size: 7840)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js (exists: 1, is_readable: 1 size: 1064)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js (exists: 1, is_readable: 1 size: 879)
+29912.511 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js (exists: 1, is_readable: 1 size: 6918)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE (exists: 1, is_readable: 1 size: 1310)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json (exists: 1, is_readable: 1 size: 3198)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md (exists: 1, is_readable: 1 size: 1853)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js (exists: 1, is_readable: 1 size: 1146)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js (exists: 1, is_readable: 1 size: 684)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/package.json (exists: 1, is_readable: 1 size: 1351)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/README.md (exists: 1, is_readable: 1 size: 6661)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/basic.js (exists: 1, is_readable: 1 size: 14889)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/brace-expand.js (exists: 1, is_readable: 1 size: 647)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/caching.js (exists: 1, is_readable: 1 size: 436)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/defaults.js (exists: 1, is_readable: 1 size: 9721)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/extglob-ending-with-state-char.js (exists: 1, is_readable: 1 size: 200)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/package.json (exists: 1, is_readable: 1 size: 1373)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/README.md (exists: 1, is_readable: 1 size: 9718)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/00-setup.js (exists: 1, is_readable: 1 size: 4298)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-comparison.js (exists: 1, is_readable: 1 size: 1746)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-results.json (exists: 1, is_readable: 1 size: 30255)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/cwd-test.js (exists: 1, is_readable: 1 size: 1187)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/globstar-match.js (exists: 1, is_readable: 1 size: 503)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/mark.js (exists: 1, is_readable: 1 size: 2692)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js (exists: 1, is_readable: 1 size: 256)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/nocase-nomagic.js (exists: 1, is_readable: 1 size: 2403)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/pause-resume.js (exists: 1, is_readable: 1 size: 1950)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/readme-issue.js (exists: 1, is_readable: 1 size: 672)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root-nomount.js (exists: 1, is_readable: 1 size: 1028)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root.js (exists: 1, is_readable: 1 size: 1119)
+29912.512 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/stat.js (exists: 1, is_readable: 1 size: 759)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/zz-cleanup.js (exists: 1, is_readable: 1 size: 251)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.js (exists: 1, is_readable: 1 size: 244097)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.min.js (exists: 1, is_readable: 1 size: 31341)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.js (exists: 1, is_readable: 1 size: 229855)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.min.js (exists: 1, is_readable: 1 size: 28151)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.js (exists: 1, is_readable: 1 size: 159528)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.min.js (exists: 1, is_readable: 1 size: 18770)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/LICENSE.txt (exists: 1, is_readable: 1 size: 1238)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/lodash.js (exists: 1, is_readable: 1 size: 245625)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/package.json (exists: 1, is_readable: 1 size: 2923)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/node_modules/lodash/README.md (exists: 1, is_readable: 1 size: 10232)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/package.json (exists: 1, is_readable: 1 size: 1634)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/README.md (exists: 1, is_readable: 1 size: 1521)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/test/findup-sync_test.js (exists: 1, is_readable: 1 size: 2509)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/test/fixtures/a/b/bar.txt (exists: 1, is_readable: 1 size: 0)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/test/fixtures/a/foo.txt (exists: 1, is_readable: 1 size: 0)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/test/fixtures/a.txt (exists: 1, is_readable: 1 size: 0)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/findup-sync/test/fixtures/aaa.txt (exists: 1, is_readable: 1 size: 0)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/.jshintrc (exists: 1, is_readable: 1 size: 224)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/.npmignore (exists: 1, is_readable: 1 size: 15)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/.travis.yml (exists: 1, is_readable: 1 size: 92)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/Gruntfile.js (exists: 1, is_readable: 1 size: 1005)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/lib/getobject.js (exists: 1, is_readable: 1 size: 1495)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/LICENSE-MIT (exists: 1, is_readable: 1 size: 1062)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/package.json (exists: 1, is_readable: 1 size: 2238)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/README.md (exists: 1, is_readable: 1 size: 639)
+29912.513 (0) File: themes/bunited2015/node_modules/grunt/node_modules/getobject/test/namespace_test.js (exists: 1, is_readable: 1 size: 2865)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/.npmignore (exists: 1, is_readable: 1 size: 15)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/.travis.yml (exists: 1, is_readable: 1 size: 35)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/examples/g.js (exists: 1, is_readable: 1 size: 228)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/examples/usr-local.js (exists: 1, is_readable: 1 size: 218)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/glob.js (exists: 1, is_readable: 1 size: 17492)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/LICENSE (exists: 1, is_readable: 1 size: 1310)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/.npmignore (exists: 1, is_readable: 1 size: 14)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/graceful-fs.js (exists: 1, is_readable: 1 size: 10864)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/LICENSE (exists: 1, is_readable: 1 size: 1310)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/package.json (exists: 1, is_readable: 1 size: 1355)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/README.md (exists: 1, is_readable: 1 size: 1228)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/test/open.js (exists: 1, is_readable: 1 size: 1110)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/graceful-fs/test/ulimit.js (exists: 1, is_readable: 1 size: 3699)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/inherits/inherits.js (exists: 1, is_readable: 1 size: 862)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/inherits/package.json (exists: 1, is_readable: 1 size: 1011)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/node_modules/inherits/README.md (exists: 1, is_readable: 1 size: 1109)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/package.json (exists: 1, is_readable: 1 size: 1124)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/README.md (exists: 1, is_readable: 1 size: 9042)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/00-setup.js (exists: 1, is_readable: 1 size: 4298)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/bash-comparison.js (exists: 1, is_readable: 1 size: 1746)
+29912.514 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/bash-results.json (exists: 1, is_readable: 1 size: 30162)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/cwd-test.js (exists: 1, is_readable: 1 size: 1187)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/mark.js (exists: 1, is_readable: 1 size: 1744)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/nocase-nomagic.js (exists: 1, is_readable: 1 size: 2412)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/pause-resume.js (exists: 1, is_readable: 1 size: 1950)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/root-nomount.js (exists: 1, is_readable: 1 size: 1028)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/root.js (exists: 1, is_readable: 1 size: 1119)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/glob/test/zz-cleanup.js (exists: 1, is_readable: 1 size: 251)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/.jshintrc (exists: 1, is_readable: 1 size: 213)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/.npmignore (exists: 1, is_readable: 1 size: 13)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/.travis.yml (exists: 1, is_readable: 1 size: 171)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/examples.js (exists: 1, is_readable: 1 size: 1018)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/Gruntfile.js (exists: 1, is_readable: 1 size: 599)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/index.js (exists: 1, is_readable: 1 size: 11391)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/LICENSE-MIT (exists: 1, is_readable: 1 size: 1062)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.compat.js (exists: 1, is_readable: 1 size: 244097)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.compat.min.js (exists: 1, is_readable: 1 size: 31341)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.js (exists: 1, is_readable: 1 size: 229855)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.min.js (exists: 1, is_readable: 1 size: 28151)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.underscore.js (exists: 1, is_readable: 1 size: 159528)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.underscore.min.js (exists: 1, is_readable: 1 size: 18770)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/LICENSE.txt (exists: 1, is_readable: 1 size: 1238)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/lodash.js (exists: 1, is_readable: 1 size: 245625)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/package.json (exists: 1, is_readable: 1 size: 2923)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/README.md (exists: 1, is_readable: 1 size: 10232)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/.travis.yml (exists: 1, is_readable: 1 size: 119)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/component.json (exists: 1, is_readable: 1 size: 345)
+29912.515 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/dist/underscore.string.min.js (exists: 1, is_readable: 1 size: 9515)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/Gemfile (exists: 1, is_readable: 1 size: 57)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/Gemfile.lock (exists: 1, is_readable: 1 size: 263)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/lib/underscore.string.js (exists: 1, is_readable: 1 size: 20875)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/libpeerconnection.log (exists: 1, is_readable: 1 size: 0)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/package.json (exists: 1, is_readable: 1 size: 2282)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/Rakefile (exists: 1, is_readable: 1 size: 831)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/README.markdown (exists: 1, is_readable: 1 size: 18591)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/run-qunit.js (exists: 1, is_readable: 1 size: 1207)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/speed.js (exists: 1, is_readable: 1 size: 3334)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/strings.js (exists: 1, is_readable: 1 size: 30153)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/strings_standalone.js (exists: 1, is_readable: 1 size: 273)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test.html (exists: 1, is_readable: 1 size: 1368)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_standalone.html (exists: 1, is_readable: 1 size: 669)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/arrays.js (exists: 1, is_readable: 1 size: 9925)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/chaining.js (exists: 1, is_readable: 1 size: 1734)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/collections.js (exists: 1, is_readable: 1 size: 16148)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/functions.js (exists: 1, is_readable: 1 size: 9957)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/index.html (exists: 1, is_readable: 1 size: 1403)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/objects.js (exists: 1, is_readable: 1 size: 26223)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/speed.js (exists: 1, is_readable: 1 size: 1880)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/utility.js (exists: 1, is_readable: 1 size: 9553)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js (exists: 1, is_readable: 1 size: 252881)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js (exists: 1, is_readable: 1 size: 20196)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/qunit.css (exists: 1, is_readable: 1 size: 4578)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/qunit.js (exists: 1, is_readable: 1 size: 51709)
+29912.516 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/underscore.js (exists: 1, is_readable: 1 size: 40988)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/package.json (exists: 1, is_readable: 1 size: 1775)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/README.md (exists: 1, is_readable: 1 size: 267)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-log/test/index.js (exists: 1, is_readable: 1 size: 20507)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/.jshintrc (exists: 1, is_readable: 1 size: 213)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/.npmignore (exists: 1, is_readable: 1 size: 13)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/.travis.yml (exists: 1, is_readable: 1 size: 171)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/Gruntfile.js (exists: 1, is_readable: 1 size: 599)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/index.js (exists: 1, is_readable: 1 size: 6288)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/LICENSE-MIT (exists: 1, is_readable: 1 size: 1062)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/package.json (exists: 1, is_readable: 1 size: 1819)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/README.md (exists: 1, is_readable: 1 size: 1322)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/exec.cmd (exists: 1, is_readable: 1 size: 11)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/exec.sh (exists: 1, is_readable: 1 size: 24)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv-child.js (exists: 1, is_readable: 1 size: 153)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv.js (exists: 1, is_readable: 1 size: 417)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-print-text.js (exists: 1, is_readable: 1 size: 193)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/spawn-multibyte.js (exists: 1, is_readable: 1 size: 645)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/spawn.js (exists: 1, is_readable: 1 size: 198)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/grunt-legacy-util/test/index.js (exists: 1, is_readable: 1 size: 17537)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/child.js (exists: 1, is_readable: 1 size: 3175)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/dist/ba-hooker.js (exists: 1, is_readable: 1 size: 6490)
+29912.517 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/dist/ba-hooker.min.js (exists: 1, is_readable: 1 size: 1292)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/grunt.js (exists: 1, is_readable: 1 size: 1143)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/lib/hooker.js (exists: 1, is_readable: 1 size: 6536)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/LICENSE-MIT (exists: 1, is_readable: 1 size: 1062)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/package.json (exists: 1, is_readable: 1 size: 1510)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/parent.js (exists: 1, is_readable: 1 size: 438)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/README.md (exists: 1, is_readable: 1 size: 5875)
+29912.518 (0) File: themes/bunited2015/node_modules/grunt/node_modules/hooker/test/hooker_test.js (exists: 1, is_readable: 1 size: 20177)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/.npmignore (exists: 1, is_readable: 1 size: 27)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/.travis.yml (exists: 1, is_readable: 1 size: 56)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/encodings/big5.js (exists: 1, is_readable: 1 size: 156)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/encodings/gbk.js (exists: 1, is_readable: 1 size: 151)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/encodings/singlebyte.js (exists: 1, is_readable: 1 size: 21389)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/encodings/table/big5.js (exists: 1, is_readable: 1 size: 276086)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/encodings/table/gbk.js (exists: 1, is_readable: 1 size: 286756)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/generation/generate-big5-table.js (exists: 1, is_readable: 1 size: 787)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/generation/generate-singlebyte.js (exists: 1, is_readable: 1 size: 3745)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/index.js (exists: 1, is_readable: 1 size: 7573)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/LICENSE (exists: 1, is_readable: 1 size: 1064)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/package.json (exists: 1, is_readable: 1 size: 2158)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/README.md (exists: 1, is_readable: 1 size: 2477)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/README.md~ (exists: 1, is_readable: 1 size: 1678)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/big5-test.js (exists: 1, is_readable: 1 size: 2076)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/big5File.txt (exists: 1, is_readable: 1 size: 255)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/cyrillic-test.js (exists: 1, is_readable: 1 size: 5407)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/gbk-test.js (exists: 1, is_readable: 1 size: 2075)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/gbkFile.txt (exists: 1, is_readable: 1 size: 6878)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/greek-test.js (exists: 1, is_readable: 1 size: 4165)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/main-test.js (exists: 1, is_readable: 1 size: 3077)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/performance.js (exists: 1, is_readable: 1 size: 2001)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/iconv-lite/test/turkish-test.js (exists: 1, is_readable: 1 size: 4587)
+29912.520 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/examples/custom_types.js (exists: 1, is_readable: 1 size: 2695)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/examples/custom_types.yaml (exists: 1, is_readable: 1 size: 295)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/examples/dumper.js (exists: 1, is_readable: 1 size: 600)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/examples/dumper.json (exists: 1, is_readable: 1 size: 422)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/examples/sample_document.js (exists: 1, is_readable: 1 size: 274)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/examples/sample_document.yaml (exists: 1, is_readable: 1 size: 5469)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/HISTORY.md (exists: 1, is_readable: 1 size: 3415)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/index.js (exists: 1, is_readable: 1 size: 46)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/common.js (exists: 1, is_readable: 1 size: 1071)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/dumper.js (exists: 1, is_readable: 1 size: 12105)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/exception.js (exists: 1, is_readable: 1 size: 454)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/loader.js (exists: 1, is_readable: 1 size: 44792)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/mark.js (exists: 1, is_readable: 1 size: 1572)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/require.js (exists: 1, is_readable: 1 size: 524)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/default.js (exists: 1, is_readable: 1 size: 268)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/minimal.js (exists: 1, is_readable: 1 size: 188)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/safe.js (exists: 1, is_readable: 1 size: 463)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema.js (exists: 1, is_readable: 1 size: 2542)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/binary.js (exists: 1, is_readable: 1 size: 3499)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/bool.js (exists: 1, is_readable: 1 size: 1496)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/float.js (exists: 1, is_readable: 1 size: 2074)
+29912.521 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/int.js (exists: 1, is_readable: 1 size: 1888)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/function.js (exists: 1, is_readable: 1 size: 1301)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js (exists: 1, is_readable: 1 size: 1034)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js (exists: 1, is_readable: 1 size: 454)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/map.js (exists: 1, is_readable: 1 size: 141)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/merge.js (exists: 1, is_readable: 1 size: 308)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/null.js (exists: 1, is_readable: 1 size: 690)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/omap.js (exists: 1, is_readable: 1 size: 1019)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/pairs.js (exists: 1, is_readable: 1 size: 724)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/seq.js (exists: 1, is_readable: 1 size: 140)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/set.js (exists: 1, is_readable: 1 size: 489)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/str.js (exists: 1, is_readable: 1 size: 141)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/timestamp.js (exists: 1, is_readable: 1 size: 2204)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type.js (exists: 1, is_readable: 1 size: 2044)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/lib/js-yaml.js (exists: 1, is_readable: 1 size: 1172)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/LICENSE (exists: 1, is_readable: 1 size: 1085)
+29912.523 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js (exists: 1, is_readable: 1 size: 4248)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js (exists: 1, is_readable: 1 size: 6106)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js (exists: 1, is_readable: 1 size: 721)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js (exists: 1, is_readable: 1 size: 449)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js (exists: 1, is_readable: 1 size: 1029)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js (exists: 1, is_readable: 1 size: 323)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js (exists: 1, is_readable: 1 size: 632)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js (exists: 1, is_readable: 1 size: 721)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js (exists: 1, is_readable: 1 size: 576)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js (exists: 1, is_readable: 1 size: 1060)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js (exists: 1, is_readable: 1 size: 779)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/testformatters.js (exists: 1, is_readable: 1 size: 5718)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/HISTORY.md (exists: 1, is_readable: 1 size: 2254)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/index.js (exists: 1, is_readable: 1 size: 44)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append/constant.js (exists: 1, is_readable: 1 size: 1421)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append.js (exists: 1, is_readable: 1 size: 1584)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/count.js (exists: 1, is_readable: 1 size: 1036)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/help.js (exists: 1, is_readable: 1 size: 1124)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/constant.js (exists: 1, is_readable: 1 size: 1323)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/false.js (exists: 1, is_readable: 1 size: 703)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/true.js (exists: 1, is_readable: 1 size: 692)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store.js (exists: 1, is_readable: 1 size: 1343)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/subparsers.js (exists: 1, is_readable: 1 size: 3633)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/version.js (exists: 1, is_readable: 1 size: 1251)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action.js (exists: 1, is_readable: 1 size: 4579)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js (exists: 1, is_readable: 1 size: 14839)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argparse.js (exists: 1, is_readable: 1 size: 618)
+29912.524 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/error.js (exists: 1, is_readable: 1 size: 1183)
+29912.525 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/exclusive.js (exists: 1, is_readable: 1 size: 1589)
+29912.525 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js (exists: 1, is_readable: 1 size: 2330)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js (exists: 1, is_readable: 1 size: 34983)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/const.js (exists: 1, is_readable: 1 size: 324)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/added_formatters.js (exists: 1, is_readable: 1 size: 2793)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/formatter.js (exists: 1, is_readable: 1 size: 22003)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/namespace.js (exists: 1, is_readable: 1 size: 1835)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/LICENSE (exists: 1, is_readable: 1 size: 1079)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/LICENSE (exists: 1, is_readable: 1 size: 1117)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/package.json (exists: 1, is_readable: 1 size: 1849)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/README.md (exists: 1, is_readable: 1 size: 1225)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore-min.js (exists: 1, is_readable: 1 size: 15626)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore.js (exists: 1, is_readable: 1 size: 47559)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/.npmignore (exists: 1, is_readable: 1 size: 10)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/.travis.yml (exists: 1, is_readable: 1 size: 128)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/bower.json (exists: 1, is_readable: 1 size: 1043)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/component.json (exists: 1, is_readable: 1 size: 345)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/foo.js (exists: 1, is_readable: 1 size: 343)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/gulpfile.js (exists: 1, is_readable: 1 size: 694)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/lib/underscore.string.js (exists: 1, is_readable: 1 size: 20889)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/libpeerconnection.log (exists: 1, is_readable: 1 size: 0)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/package.json (exists: 1, is_readable: 1 size: 2493)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/README.markdown (exists: 1, is_readable: 1 size: 19042)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/package.json (exists: 1, is_readable: 1 size: 1426)
+29912.526 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/README.md (exists: 1, is_readable: 1 size: 7703)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js (exists: 1, is_readable: 1 size: 124851)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/package.json (exists: 1, is_readable: 1 size: 1500)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/README.md (exists: 1, is_readable: 1 size: 4358)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/compat.js (exists: 1, is_readable: 1 size: 7789)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/reflect.js (exists: 1, is_readable: 1 size: 23835)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/run.js (exists: 1, is_readable: 1 size: 2319)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/runner.js (exists: 1, is_readable: 1 size: 12424)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/test.js (exists: 1, is_readable: 1 size: 682336)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/package.json (exists: 1, is_readable: 1 size: 1700)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/js-yaml/README.md (exists: 1, is_readable: 1 size: 6602)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/lodash/lodash.js (exists: 1, is_readable: 1 size: 133940)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/lodash/lodash.min.js (exists: 1, is_readable: 1 size: 17817)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/lodash/lodash.underscore.js (exists: 1, is_readable: 1 size: 112814)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/lodash/lodash.underscore.min.js (exists: 1, is_readable: 1 size: 13291)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/lodash/package.json (exists: 1, is_readable: 1 size: 1829)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/lodash/README.md (exists: 1, is_readable: 1 size: 7846)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/.npmignore (exists: 1, is_readable: 1 size: 13)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/minimatch.js (exists: 1, is_readable: 1 size: 28353)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/.npmignore (exists: 1, is_readable: 1 size: 14)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS (exists: 1, is_readable: 1 size: 524)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js (exists: 1, is_readable: 1 size: 6445)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/package.json (exists: 1, is_readable: 1 size: 1281)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/README.md (exists: 1, is_readable: 1 size: 3209)
+29912.527 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/basic.js (exists: 1, is_readable: 1 size: 7840)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/foreach.js (exists: 1, is_readable: 1 size: 1064)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js (exists: 1, is_readable: 1 size: 879)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/bench.js (exists: 1, is_readable: 1 size: 6918)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/LICENSE (exists: 1, is_readable: 1 size: 1310)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/package.json (exists: 1, is_readable: 1 size: 3198)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/README.md (exists: 1, is_readable: 1 size: 1853)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/sigmund.js (exists: 1, is_readable: 1 size: 1146)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/node_modules/sigmund/test/basic.js (exists: 1, is_readable: 1 size: 684)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/package.json (exists: 1, is_readable: 1 size: 1312)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/README.md (exists: 1, is_readable: 1 size: 6635)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/test/basic.js (exists: 1, is_readable: 1 size: 14889)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/test/brace-expand.js (exists: 1, is_readable: 1 size: 647)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/test/caching.js (exists: 1, is_readable: 1 size: 436)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/test/defaults.js (exists: 1, is_readable: 1 size: 9727)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/minimatch/test/extglob-ending-with-state-char.js (exists: 1, is_readable: 1 size: 200)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/.npmignore (exists: 1, is_readable: 1 size: 0)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/examples/my-program.js (exists: 1, is_readable: 1 size: 1032)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/lib/nopt.js (exists: 1, is_readable: 1 size: 15345)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/node_modules/abbrev/abbrev.js (exists: 1, is_readable: 1 size: 1764)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/node_modules/abbrev/CONTRIBUTING.md (exists: 1, is_readable: 1 size: 123)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/node_modules/abbrev/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json (exists: 1, is_readable: 1 size: 1149)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/node_modules/abbrev/README.md (exists: 1, is_readable: 1 size: 499)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/node_modules/abbrev/test.js (exists: 1, is_readable: 1 size: 1069)
+29912.528 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/package.json (exists: 1, is_readable: 1 size: 1435)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/nopt/README.md (exists: 1, is_readable: 1 size: 7476)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/AUTHORS (exists: 1, is_readable: 1 size: 235)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/LICENSE (exists: 1, is_readable: 1 size: 1092)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/package.json (exists: 1, is_readable: 1 size: 1642)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/README.md (exists: 1, is_readable: 1 size: 840)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/rimraf.js (exists: 1, is_readable: 1 size: 5754)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/test/run.sh (exists: 1, is_readable: 1 size: 202)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/test/setup.sh (exists: 1, is_readable: 1 size: 602)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/test/test-async.js (exists: 1, is_readable: 1 size: 138)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/rimraf/test/test-sync.js (exists: 1, is_readable: 1 size: 105)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/.travis.yml (exists: 1, is_readable: 1 size: 119)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/dist/underscore.string.min.js (exists: 1, is_readable: 1 size: 7367)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/Gemfile (exists: 1, is_readable: 1 size: 55)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/Gemfile.lock (exists: 1, is_readable: 1 size: 583)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/lib/underscore.string.js (exists: 1, is_readable: 1 size: 16076)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/package.json (exists: 1, is_readable: 1 size: 2238)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/Rakefile (exists: 1, is_readable: 1 size: 946)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/README.markdown (exists: 1, is_readable: 1 size: 15422)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/run-qunit.js (exists: 1, is_readable: 1 size: 1108)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/speed.js (exists: 1, is_readable: 1 size: 3026)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/strings.js (exists: 1, is_readable: 1 size: 19043)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/strings_standalone.js (exists: 1, is_readable: 1 size: 274)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test.html (exists: 1, is_readable: 1 size: 1368)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_standalone.html (exists: 1, is_readable: 1 size: 669)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/arrays.js (exists: 1, is_readable: 1 size: 8720)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/chaining.js (exists: 1, is_readable: 1 size: 1777)
+29912.529 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/collections.js (exists: 1, is_readable: 1 size: 11400)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/functions.js (exists: 1, is_readable: 1 size: 8003)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/objects.js (exists: 1, is_readable: 1 size: 26174)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/speed.js (exists: 1, is_readable: 1 size: 1722)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp.js (exists: 1, is_readable: 1 size: 636)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp_tests.html (exists: 1, is_readable: 1 size: 669)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/test.html (exists: 1, is_readable: 1 size: 1737)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/utility.js (exists: 1, is_readable: 1 size: 6719)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jquery.js (exists: 1, is_readable: 1 size: 57254)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js (exists: 1, is_readable: 1 size: 20196)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.css (exists: 1, is_readable: 1 size: 3958)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.js (exists: 1, is_readable: 1 size: 62809)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/underscore.string/test/underscore.js (exists: 1, is_readable: 1 size: 35167)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/which/LICENSE (exists: 1, is_readable: 1 size: 765)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/which/package.json (exists: 1, is_readable: 1 size: 1194)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/which/README.md (exists: 1, is_readable: 1 size: 199)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/node_modules/which/which.js (exists: 1, is_readable: 1 size: 2950)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/package.json (exists: 1, is_readable: 1 size: 2283)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt/README.md (exists: 1, is_readable: 1 size: 900)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/LICENSE (exists: 1, is_readable: 1 size: 1105)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/ChangeLog.md (exists: 1, is_readable: 1 size: 12856)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/data/browsers.js (exists: 1, is_readable: 1 size: 1772)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/data/prefixes.js (exists: 1, is_readable: 1 size: 9724)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/autoprefixer.js (exists: 1, is_readable: 1 size: 3358)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/browsers.js (exists: 1, is_readable: 1 size: 6508)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/declaration.js (exists: 1, is_readable: 1 size: 4637)
+29912.530 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/align-content.js (exists: 1, is_readable: 1 size: 1780)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/align-items.js (exists: 1, is_readable: 1 size: 1745)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/align-self.js (exists: 1, is_readable: 1 size: 1658)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/background-size.js (exists: 1, is_readable: 1 size: 1123)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/border-image.js (exists: 1, is_readable: 1 size: 925)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/border-radius.js (exists: 1, is_readable: 1 size: 1786)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/break-inside.js (exists: 1, is_readable: 1 size: 1714)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/display-flex.js (exists: 1, is_readable: 1 size: 1946)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/fill-available.js (exists: 1, is_readable: 1 size: 1275)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/filter-value.js (exists: 1, is_readable: 1 size: 1093)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/filter.js (exists: 1, is_readable: 1 size: 925)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-basis.js (exists: 1, is_readable: 1 size: 1460)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-direction.js (exists: 1, is_readable: 1 size: 2518)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-flow.js (exists: 1, is_readable: 1 size: 1101)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-grow.js (exists: 1, is_readable: 1 size: 1188)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-shrink.js (exists: 1, is_readable: 1 size: 1463)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-spec.js (exists: 1, is_readable: 1 size: 323)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex-wrap.js (exists: 1, is_readable: 1 size: 965)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/flex.js (exists: 1, is_readable: 1 size: 1557)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/fullscreen.js (exists: 1, is_readable: 1 size: 993)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/gradient.js (exists: 1, is_readable: 1 size: 7032)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/justify-content.js (exists: 1, is_readable: 1 size: 2002)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/order.js (exists: 1, is_readable: 1 size: 1563)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/placeholder.js (exists: 1, is_readable: 1 size: 1242)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/transform-decl.js (exists: 1, is_readable: 1 size: 2154)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/transform-value.js (exists: 1, is_readable: 1 size: 953)
+29912.531 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/transition.js (exists: 1, is_readable: 1 size: 1159)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/info.js (exists: 1, is_readable: 1 size: 3649)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/keyframes.js (exists: 1, is_readable: 1 size: 1538)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/old-selector.js (exists: 1, is_readable: 1 size: 1862)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/old-value.js (exists: 1, is_readable: 1 size: 607)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/prefixer.js (exists: 1, is_readable: 1 size: 2765)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/prefixes.js (exists: 1, is_readable: 1 size: 10631)
+29912.532 (0) File: themes/bunited2015/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/processor.js (exists: 1, is_readable: 1 size: 5685)
+29912.533 (0) PHP event: code E_WARNING: filesize(): stat failed for /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/updraft/backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp (line 2013, wp-content/plugins/updraftplus/backup.php)
+29912.606 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7100 files added (on-disk size: 0 Kb)
+29912.611 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7200 files added (on-disk size: 0 Kb)
+29912.614 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7300 files added (on-disk size: 0 Kb)
+29912.618 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7400 files added (on-disk size: 0 Kb)
+29912.622 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7500 files added (on-disk size: 0 Kb)
+29912.623 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 Mb, 9336 files batched, 501 (7516) added so far); re-opening (prior size: 0 Kb)
+29918.193 (0) The time we have been running (29918.1) is approaching the resumption interval (29943) - increasing resumption interval to 29949
+29918.787 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 0.90 Mb
+29918.798 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7600 files added (on-disk size: 878.6 Kb)
+29918.804 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7700 files added (on-disk size: 878.6 Kb)
+29918.808 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7800 files added (on-disk size: 878.6 Kb)
+29918.812 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7900 files added (on-disk size: 878.6 Kb)
+29918.816 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8000 files added (on-disk size: 878.6 Kb)
+29918.817 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 Mb, 9336 files batched, 501 (8017) added so far); re-opening (prior size: 878.6 Kb)
+29923.347 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 2.00 Mb
+29923.355 (0) The time we have been running (29923.3) is approaching the resumption interval (29949) - increasing resumption interval to 29954
+29923.362 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8100 files added (on-disk size: 2002.6 Kb)
+29923.366 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8200 files added (on-disk size: 2002.6 Kb)
+29923.370 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8300 files added (on-disk size: 2002.6 Kb)
+29923.374 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8400 files added (on-disk size: 2002.6 Kb)
+29923.378 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8500 files added (on-disk size: 2002.6 Kb)
+29923.379 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 Mb, 9336 files batched, 501 (8518) added so far); re-opening (prior size: 2002.6 Kb)
+29926.379 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 3.60 Mb
+29926.385 (0) The time we have been running (29926.3) is approaching the resumption interval (29954) - increasing resumption interval to 29957
+29926.391 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8600 files added (on-disk size: 3722.1 Kb)
+29926.394 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8700 files added (on-disk size: 3722.1 Kb)
+29926.398 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8800 files added (on-disk size: 3722.1 Kb)
+29926.402 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8900 files added (on-disk size: 3722.1 Kb)
+29926.406 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9000 files added (on-disk size: 3722.1 Kb)
+29926.407 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 Mb, 9336 files batched, 501 (9019) added so far); re-opening (prior size: 3722.1 Kb)
+29929.115 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: size is now: 4.90 Mb
+29929.122 (0) The time we have been running (29929) is approaching the resumption interval (29957) - increasing resumption interval to 29960
+29929.127 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9100 files added (on-disk size: 4979.1 Kb)
+29929.131 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9200 files added (on-disk size: 4979.1 Kb)
+29929.134 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9300 files added (on-disk size: 4979.1 Kb)
+29931.259 (0) The time we have been running (29931.2) is approaching the resumption interval (29960) - increasing resumption interval to 29962
+29931.263 (0) Error: makezip_addfiles returned false
+29931.264 (0) makezip_addfiles(UpdraftPlus_BinZip) apparently failed (file=backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp, type=themes, size=5583219) - retrying with PclZip
+29931.417 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: Zip file already exists, with 2321 files
+29931.420 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/5d57d4873e08eb2a8617e0f2ed3b82da46b1bf10/_home.scssc: unreadable file
+29931.421 (0) [Warning] themes/bunited2015/.sass-cache/5d57d4873e08eb2a8617e0f2ed3b82da46b1bf10/_home.scssc: unreadable file - could not be backed up
+29931.421 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_alerts.scssc: unreadable file
+29931.423 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_alerts.scssc: unreadable file - could not be backed up
+29931.424 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_background-variant.scssc: unreadable file
+29931.424 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_background-variant.scssc: unreadable file - could not be backed up
+29931.424 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_border-radius.scssc: unreadable file
+29931.425 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_border-radius.scssc: unreadable file - could not be backed up
+29931.425 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_buttons.scssc: unreadable file
+29931.427 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_buttons.scssc: unreadable file - could not be backed up
+29931.427 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_center-block.scssc: unreadable file
+29931.428 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_center-block.scssc: unreadable file - could not be backed up
+29931.428 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_clearfix.scssc: unreadable file
+29931.429 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_clearfix.scssc: unreadable file - could not be backed up
+29931.429 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_forms.scssc: unreadable file
+29931.431 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_forms.scssc: unreadable file - could not be backed up
+29931.431 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_gradients.scssc: unreadable file
+29931.432 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_gradients.scssc: unreadable file - could not be backed up
+29931.432 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid-framework.scssc: unreadable file
+29931.433 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid-framework.scssc: unreadable file - could not be backed up
+29931.433 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid.scssc: unreadable file
+29931.435 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_grid.scssc: unreadable file - could not be backed up
+29931.435 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_hide-text.scssc: unreadable file
+29931.436 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_hide-text.scssc: unreadable file - could not be backed up
+29931.436 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_image.scssc: unreadable file
+29931.437 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_image.scssc: unreadable file - could not be backed up
+29931.437 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_labels.scssc: unreadable file
+29931.439 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_labels.scssc: unreadable file - could not be backed up
+29931.439 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_list-group.scssc: unreadable file
+29931.441 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_list-group.scssc: unreadable file - could not be backed up
+29931.441 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-divider.scssc: unreadable file
+29931.442 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-divider.scssc: unreadable file - could not be backed up
+29931.442 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-vertical-align.scssc: unreadable file
+29931.443 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_nav-vertical-align.scssc: unreadable file - could not be backed up
+29931.443 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_opacity.scssc: unreadable file
+29931.444 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_opacity.scssc: unreadable file - could not be backed up
+29931.444 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_pagination.scssc: unreadable file
+29931.446 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_pagination.scssc: unreadable file - could not be backed up
+29931.446 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_panels.scssc: unreadable file
+29931.448 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_panels.scssc: unreadable file - could not be backed up
+29931.449 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_progress-bar.scssc: unreadable file
+29931.449 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_progress-bar.scssc: unreadable file - could not be backed up
+29931.449 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_reset-filter.scssc: unreadable file
+29931.450 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_reset-filter.scssc: unreadable file - could not be backed up
+29931.450 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_resize.scssc: unreadable file
+29931.451 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_resize.scssc: unreadable file - could not be backed up
+29931.451 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_responsive-visibility.scssc: unreadable file
+29931.451 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_responsive-visibility.scssc: unreadable file - could not be backed up
+29931.452 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_size.scssc: unreadable file
+29931.452 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_size.scssc: unreadable file - could not be backed up
+29931.453 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_tab-focus.scssc: unreadable file
+29931.453 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_tab-focus.scssc: unreadable file - could not be backed up
+29931.454 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_table-row.scssc: unreadable file
+29931.454 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_table-row.scssc: unreadable file - could not be backed up
+29931.454 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-emphasis.scssc: unreadable file
+29931.455 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-emphasis.scssc: unreadable file - could not be backed up
+29931.455 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-overflow.scssc: unreadable file
+29931.456 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_text-overflow.scssc: unreadable file - could not be backed up
+29931.456 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_vendor-prefixes.scssc: unreadable file
+29931.456 (0) [Warning] themes/bunited2015/.sass-cache/81ab9d44d130d4f1876f8f52063727de4e14739b/_vendor-prefixes.scssc: unreadable file - could not be backed up
+29931.457 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/8a2ba6adb12b6e6b432d84e26a3dcace730c8311/_fonts.scssc: unreadable file
+29931.459 (0) [Warning] themes/bunited2015/.sass-cache/8a2ba6adb12b6e6b432d84e26a3dcace730c8311/_fonts.scssc: unreadable file - could not be backed up
+29931.459 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_bootstrap.scssc: unreadable file
+29931.460 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_bootstrap.scssc: unreadable file - could not be backed up
+29931.460 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_fonts.scssc: unreadable file
+29931.462 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_fonts.scssc: unreadable file - could not be backed up
+29931.462 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_global.scssc: unreadable file
+29931.463 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_global.scssc: unreadable file - could not be backed up
+29931.463 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_variables.scssc: unreadable file
+29931.465 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/_variables.scssc: unreadable file - could not be backed up
+29931.465 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/main.scssc: unreadable file
+29931.466 (0) [Warning] themes/bunited2015/.sass-cache/93827f21ec9a30192051b8657372fa0c4e6c0f10/main.scssc: unreadable file - could not be backed up
+29931.466 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_alerts.scssc: unreadable file
+29931.468 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_alerts.scssc: unreadable file - could not be backed up
+29931.469 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_badges.scssc: unreadable file
+29931.469 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_badges.scssc: unreadable file - could not be backed up
+29931.469 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_breadcrumbs.scssc: unreadable file
+29931.470 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_breadcrumbs.scssc: unreadable file - could not be backed up
+29931.470 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_button-groups.scssc: unreadable file
+29931.471 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_button-groups.scssc: unreadable file - could not be backed up
+29931.471 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_buttons.scssc: unreadable file
+29931.473 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_buttons.scssc: unreadable file - could not be backed up
+29931.473 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_carousel.scssc: unreadable file
+29931.474 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_carousel.scssc: unreadable file - could not be backed up
+29931.474 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_close.scssc: unreadable file
+29931.475 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_close.scssc: unreadable file - could not be backed up
+29931.475 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_code.scssc: unreadable file
+29931.475 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_code.scssc: unreadable file - could not be backed up
+29931.476 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_component-animations.scssc: unreadable file
+29931.476 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_component-animations.scssc: unreadable file - could not be backed up
+29931.477 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_dropdowns.scssc: unreadable file
+29931.477 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_dropdowns.scssc: unreadable file - could not be backed up
+29931.478 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_forms.scssc: unreadable file
+29931.479 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_forms.scssc: unreadable file - could not be backed up
+29931.480 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_glyphicons.scssc: unreadable file
+29931.480 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_glyphicons.scssc: unreadable file - could not be backed up
+29931.481 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_grid.scssc: unreadable file
+29931.483 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_grid.scssc: unreadable file - could not be backed up
+29931.483 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_input-groups.scssc: unreadable file
+29931.483 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_input-groups.scssc: unreadable file - could not be backed up
+29931.484 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_jumbotron.scssc: unreadable file
+29931.484 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_jumbotron.scssc: unreadable file - could not be backed up
+29931.485 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_labels.scssc: unreadable file
+29931.486 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_labels.scssc: unreadable file - could not be backed up
+29931.487 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_list-group.scssc: unreadable file
+29931.489 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_list-group.scssc: unreadable file - could not be backed up
+29931.489 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_media.scssc: unreadable file
+29931.491 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_media.scssc: unreadable file - could not be backed up
+29931.491 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_modals.scssc: unreadable file
+29931.492 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_modals.scssc: unreadable file - could not be backed up
+29931.492 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navbar.scssc: unreadable file
+29931.493 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navbar.scssc: unreadable file - could not be backed up
+29931.493 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navs.scssc: unreadable file
+29931.493 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_navs.scssc: unreadable file - could not be backed up
+29931.494 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_normalize.scssc: unreadable file
+29931.494 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_normalize.scssc: unreadable file - could not be backed up
+29931.495 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pager.scssc: unreadable file
+29931.495 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pager.scssc: unreadable file - could not be backed up
+29931.496 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pagination.scssc: unreadable file
+29931.498 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_pagination.scssc: unreadable file - could not be backed up
+29931.498 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_panels.scssc: unreadable file
+29931.500 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_panels.scssc: unreadable file - could not be backed up
+29931.500 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_popovers.scssc: unreadable file
+29931.501 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_popovers.scssc: unreadable file - could not be backed up
+29931.501 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_print.scssc: unreadable file
+29931.502 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_print.scssc: unreadable file - could not be backed up
+29931.502 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_progress-bars.scssc: unreadable file
+29931.502 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_progress-bars.scssc: unreadable file - could not be backed up
+29931.503 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-embed.scssc: unreadable file
+29931.503 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-embed.scssc: unreadable file - could not be backed up
+29931.504 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-utilities.scssc: unreadable file
+29931.504 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_responsive-utilities.scssc: unreadable file - could not be backed up
+29931.504 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_scaffolding.scssc: unreadable file
+29931.505 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_scaffolding.scssc: unreadable file - could not be backed up
+29931.505 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tables.scssc: unreadable file
+29931.506 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tables.scssc: unreadable file - could not be backed up
+29931.506 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_thumbnails.scssc: unreadable file
+29931.507 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_thumbnails.scssc: unreadable file - could not be backed up
+29931.507 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tooltip.scssc: unreadable file
+29931.507 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_tooltip.scssc: unreadable file - could not be backed up
+29931.508 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_type.scssc: unreadable file
+29931.508 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_type.scssc: unreadable file - could not be backed up
+29931.509 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_utilities.scssc: unreadable file
+29931.509 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_utilities.scssc: unreadable file - could not be backed up
+29931.509 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_variables.scssc: unreadable file
+29931.512 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_variables.scssc: unreadable file - could not be backed up
+29931.512 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_wells.scssc: unreadable file
+29931.513 (0) [Warning] themes/bunited2015/.sass-cache/9f58a1bf6e953e08ea4bf3efd96f525e8ea276fd/_wells.scssc: unreadable file - could not be backed up
+29931.513 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_footer.scssc: unreadable file
+29931.514 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_footer.scssc: unreadable file - could not be backed up
+29931.514 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_general.scssc: unreadable file
+29931.515 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_general.scssc: unreadable file - could not be backed up
+29931.515 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_header.scssc: unreadable file
+29931.515 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_header.scssc: unreadable file - could not be backed up
+29931.516 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_pages.scssc: unreadable file
+29931.516 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_pages.scssc: unreadable file - could not be backed up
+29931.517 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_posts.scssc: unreadable file
+29931.517 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_posts.scssc: unreadable file - could not be backed up
+29931.517 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_sidebar.scssc: unreadable file
+29931.518 (0) [Warning] themes/bunited2015/.sass-cache/bff129136209199fcfef182cfe878467765571ce/_sidebar.scssc: unreadable file - could not be backed up
+29931.518 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_buttons.scssc: unreadable file
+29931.520 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_buttons.scssc: unreadable file - could not be backed up
+29931.521 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_forms.scssc: unreadable file
+29931.522 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_forms.scssc: unreadable file - could not be backed up
+29931.523 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_media.scssc: unreadable file
+29931.525 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_media.scssc: unreadable file - could not be backed up
+29931.525 (0) /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_wp-classes.scssc: unreadable file
+29931.526 (0) [Warning] themes/bunited2015/.sass-cache/f98b6fac536c24ce2f891efdfb23e05192330227/_wp-classes.scssc: unreadable file - could not be backed up
+29932.004 (0) Total entities for the zip file: 1927 directories, 9336 files (0 skipped as non-modified), 52.6 Mb
+29932.004 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 53887.7 Kb, split: 512000 Kb)
+29932.012 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 100 files added (on-disk size: 5452.4 Kb)
+29932.018 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 200 files added (on-disk size: 5452.4 Kb)
+29932.021 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 300 files added (on-disk size: 5452.4 Kb)
+29932.024 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 400 files added (on-disk size: 5452.4 Kb)
+29932.028 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 500 files added (on-disk size: 5452.4 Kb)
+29932.031 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 600 files added (on-disk size: 5452.4 Kb)
+29932.034 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 700 files added (on-disk size: 5452.4 Kb)
+29932.037 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 800 files added (on-disk size: 5452.4 Kb)
+29932.040 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 900 files added (on-disk size: 5452.4 Kb)
+29932.043 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1000 files added (on-disk size: 5452.4 Kb)
+29932.046 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1100 files added (on-disk size: 5452.4 Kb)
+29932.050 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1200 files added (on-disk size: 5452.4 Kb)
+29932.053 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1300 files added (on-disk size: 5452.4 Kb)
+29932.056 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1400 files added (on-disk size: 5452.4 Kb)
+29932.059 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1500 files added (on-disk size: 5452.4 Kb)
+29932.062 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1600 files added (on-disk size: 5452.4 Kb)
+29932.065 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1700 files added (on-disk size: 5452.4 Kb)
+29932.068 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1800 files added (on-disk size: 5452.4 Kb)
+29932.071 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 1900 files added (on-disk size: 5452.4 Kb)
+29932.074 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2000 files added (on-disk size: 5452.4 Kb)
+29932.078 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2100 files added (on-disk size: 5452.4 Kb)
+29932.081 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2200 files added (on-disk size: 5452.4 Kb)
+29932.084 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2300 files added (on-disk size: 5452.4 Kb)
+29932.087 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2400 files added (on-disk size: 5452.4 Kb)
+29932.090 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2500 files added (on-disk size: 5452.4 Kb)
+29932.093 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2600 files added (on-disk size: 5452.4 Kb)
+29932.097 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2700 files added (on-disk size: 5452.4 Kb)
+29932.100 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2800 files added (on-disk size: 5452.4 Kb)
+29932.103 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 2900 files added (on-disk size: 5452.4 Kb)
+29932.106 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3000 files added (on-disk size: 5452.4 Kb)
+29932.109 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3100 files added (on-disk size: 5452.4 Kb)
+29932.112 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3200 files added (on-disk size: 5452.4 Kb)
+29932.115 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3300 files added (on-disk size: 5452.4 Kb)
+29932.118 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3400 files added (on-disk size: 5452.4 Kb)
+29932.122 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3500 files added (on-disk size: 5452.4 Kb)
+29932.125 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3600 files added (on-disk size: 5452.4 Kb)
+29932.129 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3700 files added (on-disk size: 5452.4 Kb)
+29932.132 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3800 files added (on-disk size: 5452.4 Kb)
+29932.135 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 3900 files added (on-disk size: 5452.4 Kb)
+29932.139 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4000 files added (on-disk size: 5452.4 Kb)
+29932.143 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4100 files added (on-disk size: 5452.4 Kb)
+29932.146 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4200 files added (on-disk size: 5452.4 Kb)
+29932.149 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4300 files added (on-disk size: 5452.4 Kb)
+29932.152 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4400 files added (on-disk size: 5452.4 Kb)
+29932.155 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4500 files added (on-disk size: 5452.4 Kb)
+29932.159 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4600 files added (on-disk size: 5452.4 Kb)
+29932.162 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4700 files added (on-disk size: 5452.4 Kb)
+29932.165 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4800 files added (on-disk size: 5452.4 Kb)
+29932.168 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 4900 files added (on-disk size: 5452.4 Kb)
+29932.171 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5000 files added (on-disk size: 5452.4 Kb)
+29932.174 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5100 files added (on-disk size: 5452.4 Kb)
+29932.177 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5200 files added (on-disk size: 5452.4 Kb)
+29932.181 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5300 files added (on-disk size: 5452.4 Kb)
+29932.184 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5400 files added (on-disk size: 5452.4 Kb)
+29932.187 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5500 files added (on-disk size: 5452.4 Kb)
+29932.190 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5600 files added (on-disk size: 5452.4 Kb)
+29932.193 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5700 files added (on-disk size: 5452.4 Kb)
+29932.196 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5800 files added (on-disk size: 5452.4 Kb)
+29932.199 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 5900 files added (on-disk size: 5452.4 Kb)
+29932.202 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6000 files added (on-disk size: 5452.4 Kb)
+29932.205 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6100 files added (on-disk size: 5452.4 Kb)
+29932.209 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6200 files added (on-disk size: 5452.4 Kb)
+29932.212 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6300 files added (on-disk size: 5452.4 Kb)
+29932.215 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6400 files added (on-disk size: 5452.4 Kb)
+29932.218 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6500 files added (on-disk size: 5452.4 Kb)
+29932.221 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6600 files added (on-disk size: 5452.4 Kb)
+29932.224 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6700 files added (on-disk size: 5452.4 Kb)
+29932.227 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6800 files added (on-disk size: 5452.4 Kb)
+29932.230 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 6900 files added (on-disk size: 5452.4 Kb)
+29932.233 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7000 files added (on-disk size: 5452.4 Kb)
+29932.235 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7100 files added (on-disk size: 5452.4 Kb)
+29932.236 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7200 files added (on-disk size: 5452.4 Kb)
+29932.237 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7300 files added (on-disk size: 5452.4 Kb)
+29932.239 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7400 files added (on-disk size: 5452.4 Kb)
+29932.240 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7500 files added (on-disk size: 5452.4 Kb)
+29932.241 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7600 files added (on-disk size: 5452.4 Kb)
+29932.243 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7700 files added (on-disk size: 5452.4 Kb)
+29932.244 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7800 files added (on-disk size: 5452.4 Kb)
+29932.245 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 7900 files added (on-disk size: 5452.4 Kb)
+29932.246 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8000 files added (on-disk size: 5452.4 Kb)
+29932.248 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8100 files added (on-disk size: 5452.4 Kb)
+29932.249 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8200 files added (on-disk size: 5452.4 Kb)
+29932.250 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8300 files added (on-disk size: 5452.4 Kb)
+29932.251 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8400 files added (on-disk size: 5452.4 Kb)
+29932.253 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8500 files added (on-disk size: 5452.4 Kb)
+29932.254 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8600 files added (on-disk size: 5452.4 Kb)
+29932.255 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8700 files added (on-disk size: 5452.4 Kb)
+29932.256 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8800 files added (on-disk size: 5452.4 Kb)
+29932.258 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 8900 files added (on-disk size: 5452.4 Kb)
+29932.259 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9000 files added (on-disk size: 5452.4 Kb)
+29932.260 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9100 files added (on-disk size: 5452.4 Kb)
+29932.261 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9200 files added (on-disk size: 5452.4 Kb)
+29932.262 (0) Zip: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip.tmp: 9300 files added (on-disk size: 5452.4 Kb)
+30524.012 (0) The time we have been running (30523.9) is approaching the resumption interval (29962) - increasing resumption interval to 30554
+30524.175 (0) Created themes zip (0) - 18186.1 Kb in 30505.4 s (0.6 Kb/s) (SHA1 checksum: 28faa11f172183d2f1abd495a6b5f8b5e9893790)
+30524.178 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+30524.179 (0) Looking for candidates to back up in: /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content/uploads
+30524.179 (0) finding files: .DS_Store: adding to list (1)
+30524.180 (0) finding files: beardedvest-150x150.jpg: adding to list (2)
+30524.180 (0) finding files: beardedvest-300x300.jpg: adding to list (3)
+30524.181 (0) finding files: beardedvest.jpg: adding to list (4)
+30524.181 (0) finding files: bunitedgroup-150x150.jpg: adding to list (5)
+30524.181 (0) finding files: bunitedgroup-300x224.jpg: adding to list (6)
+30524.182 (0) finding files: bunitedgroup.jpg: adding to list (7)
+30524.182 (0) finding files: triplesolo-150x150.jpg: adding to list (8)
+30524.182 (0) finding files: triplesolo-300x293.jpg: adding to list (9)
+30524.183 (0) finding files: triplesolo.jpg: adding to list (10)
+30524.183 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+30524.188 (0) Total entities for the zip file: 0 directories, 10 files (0 skipped as non-modified), 0.6 Mb
+30524.223 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-uploads.zip.tmp: size is now: 0.60 Mb
+30524.228 (0) The time we have been running (30524.1) is approaching the resumption interval (30554) - increasing resumption interval to 30555
+30524.307 (0) Created uploads zip (0) - 567 Kb in 0.1 s (4615.3 Kb/s) (SHA1 checksum: 35d818207eb3c4c3235cc436110b68d1cf082aba)
+30524.312 (0) Beginning backup of other directories found in the content directory (index: 0)
+30524.312 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+30524.313 (0) Looking for candidates to back up in: /Users/vincentimpellizzeri/Documents/Websites/www.bunited.dev/wp-content
+30524.314 (0) finding files: .DS_Store: adding to list (1)
+30524.314 (0) finding files: index.php: adding to list (2)
+30524.315 (0) finding files: plugins: skipping: this is the plugins directory
+30524.315 (0) finding files: themes: skipping: this is the themes directory
+30524.316 (0) finding files: updraft: skipping: this is the updraft directory
+30524.316 (0) finding files: upgrade: skipping: excluded by options
+30524.317 (0) finding files: uploads: skipping: this is the uploads directory
+30524.321 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 Mb
+30524.329 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-others.zip.tmp: size is now: 0.00 Mb
+30524.336 (0) Created others zip (0) - 0.5 Kb in 0 s (29.6 Kb/s) (SHA1 checksum: 7b768ced5414c234929bdaa7491627144d355b38)
+30524.342 (0) Saving backup status to database (elements: 8)
+30524.344 (0) No database backup (wp) - not part of this run
+30524.344 (0) Saving backup history
+30524.345 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+30524.346 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+30524.346 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+30524.347 (0) backup_2015-01-07-1311_Banner_United_1966c09973cc-others.zip: others: This file has not yet been successfully uploaded: will queue
+30524.349 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+30524.353 (0) Cloud backup selection: none
+30524.353 (0) No remote despatch: user chose no remote backup service
+30524.356 (0) Recording as successfully uploaded: backup_2015-01-07-1311_Banner_United_1966c09973cc-plugins.zip (cc802bd01f170179a221011149bab6f1)
+30524.363 (0) Recording as successfully uploaded: backup_2015-01-07-1311_Banner_United_1966c09973cc-themes.zip (240da47e18d4e320123e141aa7e746f3)
+30524.369 (0) Recording as successfully uploaded: backup_2015-01-07-1311_Banner_United_1966c09973cc-uploads.zip (eea77e2f88e0bd396bbb22f962175f42)
+30524.374 (0) Recording as successfully uploaded: backup_2015-01-07-1311_Banner_United_1966c09973cc-others.zip (5cdcffb379baefc2f660c3fd0574a236)
+30524.380 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=12, retain_db=6
+30524.381 (0) Number of backup sets in history: 6
+30524.382 (0) Examining backup set with datestamp: 1420666202 (Jan 07 2015 21:30:02)
+30524.384 (0) 1420666202: this backup set remains non-empty (1/0); will retain in history
+30524.384 (0) Examining backup set with datestamp: 1420666086 (Jan 07 2015 21:28:06)
+30524.385 (0) 1420666086: db: this set includes a database (backup_2015-01-07-2128_Banner_United_f3c708a0bd23-db.gz); db count is now 1
+30524.387 (0) 1420666086: this backup set remains non-empty (0/1); will retain in history
+30524.387 (0) Examining backup set with datestamp: 1420636308 (Jan 07 2015 13:11:48)
+30524.389 (0) 1420636308: this backup set remains non-empty (1/0); will retain in history
+30524.390 (0) Examining backup set with datestamp: 1420591143 (Jan 07 2015 00:39:03)
+30524.390 (0) 1420591143: db: this set includes a database (backup_2015-01-07-0039_Banner_United_bcd35c3bf79c-db.gz); db count is now 2
+30524.392 (0) 1420591143: this backup set remains non-empty (0/1); will retain in history
+30524.393 (0) Examining backup set with datestamp: 1420591122 (Jan 07 2015 00:38:42)
+30524.393 (0) 1420591122: db: this set includes a database (backup_2015-01-07-0038_Banner_United_1d272f86c508-db.gz); db count is now 3
+30524.395 (0) 1420591122: this backup set remains non-empty (0/1); will retain in history
+30524.396 (0) Examining backup set with datestamp: 1420591061 (Jan 07 2015 00:37:41)
+30524.398 (0) 1420591061: this backup set remains non-empty (1/0); will retain in history
+30524.398 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+30524.400 (0) Resume backup (1966c09973cc, 0): finish run
+30524.403 (0) Decremented the semaphore (f) by 1
+30524.403 (0) Semaphore (f) still locked
+30524.404 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+30524.407 (0) No email will/can be sent - the user has not configured an email address.
+30524.407 (0) The backup apparently succeeded (with warnings) and is now complete

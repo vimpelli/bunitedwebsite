@@ -1,0 +1,8 @@
+0000.078 (0) Opened log file at time: Sat, 10 Jan 2015 21:17:09 +0000 on http://www.bunited.dev
+0000.079 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.46 WP: 4.1 PHP: 5.4.19 (Darwin Vincent-Impellizzeris-MacBook-Pro.local 13.4.0 Darwin Kernel Version 13.4.0: Sun Aug 17 19:50:11 PDT 2014; root:xnu-2422.115.4~1/RELEASE_X86_64 x86_64) MySQL: 5.1.44 Server: Apache/2.4.4 (Unix) PHP/5.4.19 OpenSSL/1.0.1e mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 15M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.080 (0) Free space on disk containing Updraft's temporary directory: 104481.2 Mb
+0000.138 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every8hours)
+0000.139 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.190 (0) Requesting semaphore lock (f)
+0000.191 (0) Semaphore lock (f) failed (line 41)
+0000.192 (0) Failed to gain semaphore lock (f) - another backup of this type is apparently already active - aborting (if this is wrong - i.e. if the other backup crashed without removing the lock, then another can be started after 3 minutes)

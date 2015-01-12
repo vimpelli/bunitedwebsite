@@ -1,0 +1,26 @@
+// Grid settings
+// -------------------------
+
+$grid-columns:          12;
+$main-sm-columns:       $grid-columns;
+$sidebar-sm-columns:    4;
+
+
+
+// Brand colors
+// -------------------------
+
+$primary:               #EB2A2A;
+$primarydark:           #5E0F12;
+$secondary:             #029EF7;
+$secondarydark:         #135378;
+$thirdcolor:            #DB5400;
+
+$darkgrey:              #292929;
+$lightgrey:             #eeeeee;
+
+
+// Glyphicons path
+// -------------------------
+
+$icon-font-path:        "../vendor/bootstrap-sass-official/assets/fonts/";

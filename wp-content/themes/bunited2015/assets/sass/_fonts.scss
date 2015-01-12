@@ -1,0 +1,77 @@
+/* Add the @imports here
+---------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Passion+One:400,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+
+/* Define font families here
+---------------------------------------- */
+
+h1 {
+	font-family: 'Passion One';
+}
+
+h2 {
+	font-family:'Josefin Slab';
+}
+
+h3 {
+	font-family:'Passion One';
+}
+
+body,p,a,li {
+	font-family:'Roboto Condensed';
+}
+
+/* Define font sizes here
+------------------------------- */
+
+body {
+	font-size:16px;
+	line-height:1em;
+}
+
+h1 {
+	font-size:4em;
+	line-height:1em;
+	margin:10px 0;
+}
+
+h2 {
+	font-size:2.5em;
+	line-height:1em;
+	margin:10px 0;
+}
+
+h3 {
+	font-size:2em;
+	line-height:1em;
+	margin:10px 0;
+}
+
+h4 {
+	font-size:1em;
+	line-height:1em;
+	margin:10px 0;
+}
+
+/* Font Size Media Queries
+---------------------------------------- */
+@media (max-width:788px) {
+	h1 {
+		font-size:3em;
+	}
+
+	h2 {
+		font-size:2em;
+	}
+
+	h3 {
+		font-size:1.5em;
+	}
+
+	h4 {
+		font-size:0.5em;
+	}
+}
