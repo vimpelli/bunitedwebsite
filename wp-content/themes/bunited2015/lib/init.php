@@ -46,9 +46,27 @@ function roots_widgets_init() {
   ));
 
   register_sidebar(array(
+    'name'          => __('Call to Action Bar', 'roots'),
+    'id'            => 'sidebar-ctabar',
+    'before_widget' => '<div class="ctabar_widget"><section class="widget %1$s %2$s">',
+    'after_widget'  => '</section></div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+ register_sidebar(array(
+    'name'          => __('Secondary', 'roots'),
+    'id'            => 'sidebar-secondary',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
+  register_sidebar(array(
     'name'          => __('Footer', 'roots'),
     'id'            => 'sidebar-footer',
-    'before_widget' => '<div class="col-md-3 footer_widget"><section class="widget %1$s %2$s">',
+    'before_widget' => '<div class="col-xs-12 col-sm-4 footer_widget"><section class="widget %1$s %2$s">',
     'after_widget'  => '</section></div>',
     'before_title'  => '<h3>',
     'after_title'   => '</h3>',

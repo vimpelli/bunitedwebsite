@@ -2,12 +2,37 @@ header.navbar {
 	margin-bottom:0;
 	position: fixed;
 	border: none;
-	background: rgba(0, 0, 0, 0.7);
 	width:100%;
 	z-index: 1000;
+	display:flex;
+
+	div.on {
+			background:lime;
+		}
+	div.off {
+		background:red;
+	}
+
+	.logo {
+		display: flex;
+		align-items:center;
+		flex-grow: 1;
+		padding:0 10px;
+		img {
+			max-width: 100%;
+		}
+		h3 {
+			flex-grow: 1;
+			text-align: center;
+			margin:0;
+		}
+	}
 
 	nav {
+		flex-grow: 10;
 		ul.nav {
+			background: rgba(0, 0, 0, 0.7);
+			//margin:0 auto;
 			display: flex;
 			flex-flow: wrap row;
 			width:100%;
@@ -23,6 +48,7 @@ header.navbar {
 			}
 
 			li {
+				min-width: 100px;
 				flex-grow: 1;
 				text-align: center;
 				background: rgba(0, 0, 0, 0.7);
