@@ -2,9 +2,9 @@
   <div class="<?php if (get_field('indicator')) { echo 'on'; } else { echo 'off'; }?> logo">
     <?php if (get_field('logo')) : ?><img class="img img-responsive" src="<?php the_field('logo');?>"><?php endif ?>
     <?php if (get_field('indicator')) 
-      { echo '<h3>ITS ON THIS WEEK!</h3>'; }
+      { echo '<a class="thisweek" href="#thisweek"></a><h3>IT\'S ON THIS WEEK!</h3>'; }
     else 
-      { echo '<h3>NOT THIS WEEK</h3>'; }
+      { echo '<a class="thisweek" href="#thisweek"></a><h3>NOT THIS WEEK</h3></a>'; }
     ?>
   </div>
   <nav class="collapse navbar-collapse" role="navigation">

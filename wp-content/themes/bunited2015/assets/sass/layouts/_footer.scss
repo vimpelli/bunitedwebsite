@@ -1,16 +1,34 @@
 .footer {
+	border-top:5px solid $primary;
     background: $darkgrey;
     padding-bottom:15px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
 
    	p {
-   		font-size:14px 
+   		font-size:14px;
+   		margin:0; 
    	}
+
 	.footer_widget {
+		flex-grow: 1;
+		display: flex;
 		margin-top: 15px;
+		width:300px;
+
 		section {
+			display: flex;
+			align-items:center;
+			flex-grow: 1;
 			background:$darkgrey + 20;
+			border-bottom: 10px solid $secondary;
 			padding: 30px 15px;
 			color:white;
+
+			.textwidget {
+				flex-grow: 1;
+			}
 		}
 	}
 }

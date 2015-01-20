@@ -4,7 +4,4 @@
 		<?php dynamic_sidebar('sidebar-footer'); ?>
 	</div>
 </div>
-<!-- <div class="sub_footer">
-	<p>Hola</p>
-</div> -->
 </footer>

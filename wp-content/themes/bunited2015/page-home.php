@@ -1,9 +1,12 @@
 <?php while (have_posts()) : the_post(); ?>
 
 <div class="cta_block">
-	<div class="row">
-		<div class="col-xs-12">
+	<div class="sidebar_wrapper">
+		<div class="cta-sidebar">
 			<?php dynamic_sidebar('sidebar-ctabar' ); ?>
+		</div>
+		<div class="cta-sidebar facebook">
+			<a class="btn btn-facebook btn-block" href="https://www.facebook.com/bannerunited" target="_blank"><h3>FACEBOOK</h3></a>
 		</div>
 	</div>
 </div>
@@ -42,6 +45,18 @@
 			<div class="col-sm-6 section_body">
 			 	<?php the_field('section_2_body');?>
 			 	<a href="#third" class="btn btn-primary btn-lg btn-block" role="button">I NEED THIS IN MY LIFE</a>
+			</div>
+		</div>
+	</div>
+	<div class="section_2_body_2">
+		<div class="container"><a class="anchor thisweek" name="thisweek"></a>
+			<div class="row">
+				<div class="col-sm-12">
+				 	<h2 class="headline">THIS WEEK AT BUNITED</h2>
+				 </div>
+			 	<div class="col-sm-12">
+				 	<?php the_field('section_2_body_2');?>
+				</div>
 			</div>
 		</div>
 	</div>
