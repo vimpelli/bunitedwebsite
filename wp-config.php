@@ -20,16 +20,20 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 
 	// ** MySQL settings - You can get this info from your web host ** //
 	/** The name of the database for WordPress */
-	define('DB_NAME', 'bunitedwp');
+	define('DB_NAME', 'vinceimp_bunited');
 
 	/** MySQL database username */
-	define('DB_USER', '');
+	define('DB_USER', 'vinceimp_dev');
 
 	/** MySQL database password */
-	define('DB_PASSWORD', '');
+	define('DB_PASSWORD', '9df5LUS^W%P,');
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
+
+	define('WP_HOME','http://192.169.219.222/~vinceimpellizzer/banner_united/');
+	
+	define('WP_SITEURL','http://192.169.219.222/~vinceimpellizzer/banner_united/');
 
 }
 
