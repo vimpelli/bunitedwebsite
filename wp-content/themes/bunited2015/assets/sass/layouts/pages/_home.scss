@@ -1,10 +1,9 @@
 /* Home Page
 ---------------------------------------- */
 .title_area {
-	height: 900px;
+	height:700px;
+	height: 82vh;
 	width: 100%;
-	max-height:80vh;
-	//background-attachment: fixed;
 	background-size: cover;
 	background-position: top left;
 	display: flex;
@@ -36,6 +35,7 @@
 	 		width:80%;
 			font-size: 2.5em;
 			color:$secondary;
+			border-radius:10px;
 		}
 	}
 }
@@ -47,7 +47,9 @@
 }
 
 .cta_block {
-	background:#292929;
+	border-top:5px solid $primary;
+	background-color: $darkgrey - 30;
+	background-image: url(./../img/my-little-plaid-dark.png);
 	padding:30px 15px;
 
 	h3 {
@@ -68,6 +70,20 @@
 		}
 	}
 	
+	.sendpress-signup {
+
+		input {
+			width:100%;
+		}
+
+		input.sp_email {
+			width:69%;
+		}
+		input#submit {
+			width:29%;
+		}
+	}
+
 
 	.btn-facebook {
 		padding:0;
@@ -86,16 +102,14 @@
 		max-width: 400px;
 		margin: 0 auto;
 	}
-
-	.sendpress-signup {
-		color:white;
-
+}
+.sendpress-signup {
 		p {
 			display: inline;
 		}
 
 		input {
-			color:#292929;
+			color:$darkgrey;
 			padding:5px;
 			border:none;
 			width:100%;
@@ -105,7 +119,8 @@
 		}
 
 		input.sp_email {
-			width:69%;
+			width: 49%;
+			border: 1px solid $secondary;
 		}
 		input#submit {
 			width:29%;
@@ -114,14 +129,19 @@
 		img {
 			display: none;
 		}
-		
+		#form-wrap {
+		p {
+			display:inline;
+		}
 	}
 }
+
+
 
 //-- Home page section header
 .headline_wrapper {
 	border-top:5px solid $secondary;
-	color:#292929;
+	color:$darkgrey;
 	padding:45px 15px 50px 15px;
 	//color:#fff;
 	background: #aacdf7;
@@ -135,8 +155,7 @@
 .section {
 	.container {
 		position: relative;
-		padding-top:4%;
-		padding-bottom:4%;
+		padding:4% 30px;
 
 		h3 {
 			text-align: center;
@@ -164,7 +183,7 @@
 	.section_2_body_2 { /* The "What's going on this week" section */
 		position: relative;
 		color:#eee;
-		background-color: #292929;
+		background-color: $darkgrey - 30;
 		background-image: url(./../img/my-little-plaid-dark.png);
 
 		.thisweek {
@@ -177,7 +196,7 @@
 				padding: 25px 15px 15px 15px;
 				margin:0;
 				margin-bottom: 15px;
-				background:#292929;
+				background:$darkgrey;
 	 		}
 	 		p {
 	 			display: inline;
@@ -208,15 +227,25 @@
 
 /* Media Queries
 ---------------------------------------- */
-
 @media (max-width:850px) {
 	.title_area {
+		height: 500px;
 		div.title {
 			h1 {
 				font-size: 5em;
 			}
 			h2 {
 				font-size: 1.5em;
+			}
+		}
+	}
+}
+
+@media (max-width:500px) {
+	.title_area {
+		div.title {
+			h1 {
+				font-size: 3.5em;
 			}
 		}
 	}

@@ -1,5 +1,13 @@
 <?php while (have_posts()) : the_post(); ?>
 
+	<script type="text/javascript">
+	Response.create({
+    	prop: "width"  // "width" "device-width" "height" "device-height" or "device-pixel-ratio"
+  		, prefix: "min-width- r src"  // the prefix(es) for your data attributes (aliases are optional)
+ 		, breakpoints: [1281,1025,961,641,481,320,0] // min breakpoints (defaults for width/device-width)
+	});
+	</script>
+
 <div class="cta_block">
 	<div class="sidebar_wrapper">
 		<div class="cta-sidebar">
@@ -20,7 +28,7 @@
 	<div class="container">
 		<div class="row"><a class="anchor" name="first"></a>
 			<div class="col-sm-6 section_image">
-			 	<img class="img img-responsive size-medium wp-image-32" src="http://www.bunited.dev/wp-content/uploads/everyone.jpg" alt="triplesolo">
+			 	<img class="img img-responsive size-medium wp-image-32" src="./wp-content/uploads/everyone.jpg" alt="triplesolo">
 			</div>
 			<div class="col-sm-6 section_body">
 			 	<?php the_field('section_1_body');?>
@@ -40,7 +48,7 @@
 	<div class="container">
 		<div class="row"><a class="anchor" name="second"></a>
 			<div class="col-sm-6 section_image">
-			 	<img class="img img-responsive" src="http://www.bunited.dev/wp-content/uploads/triplesolo.jpg">
+			 	<img class="img img-responsive" src="./wp-content/uploads/triplesolo.jpg">
 			</div>
 			<div class="col-sm-6 section_body">
 			 	<?php the_field('section_2_body');?>
@@ -78,9 +86,8 @@
 				<?php dynamic_sidebar('sidebar-secondary' );?>
 			</div>
 		</div>
-		<div class="map">
-			<?php the_field('map_code');?>
-		</div>
+		<div class="map" data-min-width-641='<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2925.4661086861497!2d-85.69183029999999!3d42.841890299999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819b6a27b1adcd5%3A0xaa8064b8146f27bd!2s1111+68th+St+SW%2C+Byron+Center%2C+MI+49315!5e0!3m2!1sen!2sus!4v1421373346429" width="100%" height="450" frameborder="0" style="border:0"></iframe>' data-min-width-0='<a href="https://goo.gl/maps/2tCFI" target=_blank class="btn btn-primary btn-lg btn-block" role="button">GET DIRECTIONS</a>'></div>
+
 	</div>
 </div>
 <?php endif ?>
